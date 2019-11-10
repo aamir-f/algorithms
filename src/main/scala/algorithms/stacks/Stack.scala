@@ -1,6 +1,10 @@
 package algorithms.stacks
 
 import StackSize._
+/**
+   *Imperative Style
+  * push(), pop(), isEmpty() and peek() all take O(1) time. We do not run any loop in any of these operations
+ */
 
 class Stack {
   var top: Int = -1
@@ -50,6 +54,7 @@ object StackSize {
 object TestStack extends App {
 
   val stack = new Stack()
+  println(stack.isEmpty)
   stack.push(6)
   stack.push(8)
   println(stack.peek)
@@ -58,5 +63,6 @@ object TestStack extends App {
   stack.push(4)
   stack.push(16)
 
-  stack.showStack
+  println(stack.isEmpty)
+  stack.showStack()
 }
