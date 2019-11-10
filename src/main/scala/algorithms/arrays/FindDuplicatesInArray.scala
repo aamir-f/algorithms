@@ -14,7 +14,7 @@ package algorithms.arrays
 /**
   * Method 1:
   * Time Complexity: O(n)
-  * Space Complexity: O(n)
+  * Auxiliary Space  O(1)
   **/
 object Method1 extends App {
 
