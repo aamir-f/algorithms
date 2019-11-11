@@ -26,7 +26,7 @@ class Stack {
     } else {
       top += 1
       a(top) = x
-      println(s"$x pushed into stack")
+     // println(s"$x pushed into stack")
       true
     }
   }
