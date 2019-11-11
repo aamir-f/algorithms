@@ -12,7 +12,7 @@ class Stack {
 
   def isEmpty: Boolean = top < 0
 
-  def peek: Int = {
+  def peek(): Int = {
     if (top < 0) {
       println("Stack Underflow")
       0
@@ -57,7 +57,7 @@ object TestStack extends App {
   println(stack.isEmpty)
   stack.push(6)
   stack.push(8)
-  println(stack.peek)
+  println(stack.peek())
   stack.push(12)
   stack.pop()
   stack.push(4)

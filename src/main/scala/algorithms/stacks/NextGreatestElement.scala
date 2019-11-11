@@ -12,7 +12,7 @@ import scala.util.control.Breaks._
 object NextGreatestElement1 extends App {
   //val arr = Array(4, 5, 2, 1, 25)
   // val arr = Array(6, 5, 4, 3, 2)
-  val arr = Array(4, 5, 7, 8, 12)
+  val arr = Array(7 ,8, 1, 4)
   var next = 0
   var i = 0
   var j = 0
@@ -49,7 +49,7 @@ object NextGreatestElement1 extends App {
 object NextGreatestElement2 extends App {
 
   val stack = new Stack()
-  val arr = Array(3)
+  val arr = Array(5,4,6,1,2)
   stack.push(arr(0))
 
   for (i <- arr.tail) {
@@ -74,4 +74,35 @@ object NextGreatestElement2 extends App {
     println(s"$element ---> -1")
   }
 
+}
+
+/**
+  *
+  * Next greater element in same order as input
+  * Time Complexity: O(n)
+  * Auxiliary Space: O(n)
+  */
+object NextGreatestElement3 extends App {
+
+  val stack = new Stack()
+  val arr = Array(5,200,50,100)
+  val arr1 = Array.fill(arr.length)(0)
+  var i = arr.length  - 1
+  while (i >= 0) {
+
+       while(!stack.isEmpty && stack.peek() < arr(i)) {
+         stack.pop()
+       }
+
+      if(stack.isEmpty) arr1(i) = -1 else arr1(i) = stack.peek()
+
+       stack.push(arr(i))
+
+    i -= 1
+  }
+ i = 0
+  while(i < arr.length) {
+    println(s"${arr(i)} ----> ${arr1(i)}")
+    i = i + 1
+  }
 }
