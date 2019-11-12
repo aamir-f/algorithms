@@ -48,7 +48,7 @@ object NextGreatestElement1 extends App {
 
 object NextGreatestElement2 extends App {
 
-  val stack = new Stack()
+  val stack = new StackInt()
   val arr = Array(5,4,6,1,2)
   stack.push(arr(0))
 
@@ -84,7 +84,7 @@ object NextGreatestElement2 extends App {
   */
 object NextGreatestElement3 extends App {
 
-  val stack = new Stack()
+  val stack = new StackInt()
   val arr = Array(5,200,50,100)
   val arr1 = Array.fill(arr.length)(0)
   var i = arr.length  - 1
