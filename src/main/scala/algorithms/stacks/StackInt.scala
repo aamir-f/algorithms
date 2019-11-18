@@ -42,7 +42,7 @@ class StackInt {
     }
   }
 
-  def showStack() = println(a.filterNot(x => x == 0).mkString("[", ",", "]"))
+//  def showStack() = println(a.filterNot(x => x == 0).mkString("[", ",", "]"))
 
 
 }
@@ -106,5 +106,5 @@ object TestStack extends App {
   stack.push(16)
 
   println(stack.isEmpty)
-  stack.showStack()
+  //stack.showStack()
 }
