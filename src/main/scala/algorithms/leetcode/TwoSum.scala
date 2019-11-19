@@ -1,11 +1,13 @@
 package algorithms.leetcode
 
+import java.util
+
 import scala.util.control.Breaks._
 
 /**
   * Time Complexity = Sorting Algorithm Time Complexity plus < O(n)
   */
-object TwoSum extends App {
+object TwoSum1 extends App {
 
   val arr = Array(2, 7, 11, 15).sorted
 
@@ -21,5 +23,30 @@ object TwoSum extends App {
       else high = high - 1
     }
   }
+
+}
+
+/**
+  * Time Complexity = O(n)
+  */
+object TwoSum2 extends App {
+
+  def twoSums(nums: Array[Int], target: Int): Array[Int] = {
+    def tailRec(map: Map[Int, Int], index: Int): Array[Int] = {
+      if (index >= nums.length) Array() else {
+        if (map.contains(nums(index))) {
+          Array(map(nums(index)), index)
+        } else {
+          val t = nums(index)
+          tailRec(map + (target - nums(index) -> index), index + 1)
+        }
+      }
+    }
+    tailRec(Map(), 0)
+  }
+
+  val res = twoSums(Array(11, 4, 5, 7, 6), 10)
+  res foreach println
+
 
 }
