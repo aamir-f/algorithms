@@ -37,7 +37,6 @@ object TwoSum2 extends App {
         if (map.contains(nums(index))) {
           Array(map(nums(index)), index)
         } else {
-          val t = nums(index)
           tailRec(map + (target - nums(index) -> index), index + 1)
         }
       }
@@ -47,6 +46,5 @@ object TwoSum2 extends App {
 
   val res = twoSums(Array(11, 4, 5, 7, 6), 10)
   res foreach println
-
 
 }
