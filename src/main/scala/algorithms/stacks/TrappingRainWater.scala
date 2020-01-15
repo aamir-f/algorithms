@@ -64,4 +64,3 @@ object TrappingRainWater2 extends App {
 
   println("Total Water trapped: " + counter)
 }
-
