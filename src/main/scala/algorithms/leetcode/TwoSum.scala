@@ -1,6 +1,5 @@
 package algorithms.leetcode
 
-import java.util
 
 import scala.util.control.Breaks._
 
