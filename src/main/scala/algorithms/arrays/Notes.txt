@@ -1,0 +1,12 @@
+Questions
+====================
+
+1.) rotate an array from left to right
+2.) Find the element before which all the elements are smaller than it, and after which all are greater.
+3.) Basic questions part-1: https://classroom.google.com/u/0/c/NDY3MTIwMjI2NzRa/a/NDY5OTQ3MDY4MjBa/details
+4.) Basic questions part-2: https://classroom.google.com/u/0/c/NDY3MTIwMjI2NzRa/sa/NDY5OTQ3MDY4Mzda/details
+5.) Given an array, replace each integer with greatest element on right hand side.
+6.) Given an array of integers and a value x, find a pair in array whose sum is equal to x.
+7.) Given an array, rearrange elements of array in zig-zag fashion. i/o: 4 3 7 8 6 2 1, o/p 3 7 4 8 2 6 1 i.e a1 < a2 > a3 < a4 > a5
+
+
