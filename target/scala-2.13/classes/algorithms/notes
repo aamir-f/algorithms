@@ -1,0 +1,6 @@
+Definitions
+===============
+1.) Data Structure is a way to organize data in a way that enables it to be processed in an efficent time.
+2.) Algorithm is a set of rules to be followed to solve a problem.
+3.) Types of Data Structuresd: a.) Primitive (Int, Long etc) b.) Non-Primitive i.) physical DS (Array, LinkedList: implemented standalone
+	and they are physically present in RAM) ii.) Logical DS, dependent on Physical DS for their implementation e.g stack, queue, tree, graph.
