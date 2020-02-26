@@ -9,4 +9,14 @@ Questions
 6.) Given an array of integers and a value x, find a pair in array whose sum is equal to x.
 7.) Given an array, rearrange elements of array in zig-zag fashion. i/o: 4 3 7 8 6 2 1, o/p 3 7 4 8 2 6 1 i.e a1 < a2 > a3 < a4 > a5
 
+Theory
+========================
+1.) Arrays can hold data of any type.
+2.) Random access and update i.e arr(0) and arr.set(3, "a"), constant 0(1)
+3.) fixed size
+4.) arr.insert(2, "b"), shifts elements upstream, so, 0(n), same for arr.delete(2) , shifts elements downstream (in delete don't actually delete , just shift elements, so one step less than insert)
+5.) array capacity is one notion and other notion is number of elements.
+
+
+
 

@@ -28,8 +28,8 @@ object ArrayRotation1 extends App {
   }
   println(s"rotated array is ${tempArray.mkString("[", ",", "]")}")
 
-  for(i <- 0 until d) {
-    arr(n- (d - i)) = tempArray(i)
+  for (i <- 0 until d) {
+    arr(n - (d - i)) = tempArray(i)
   }
 
 
@@ -51,13 +51,53 @@ object ArrayRotation2 extends App {
   val d: Int = scala.io.StdIn.readInt()
 
   def leftRotate(size: Int, rotations: Int) = {
-     def leftRotateByOne(rotations: Int) = {
-       if(rotations == 0) arr else {
-       }
-     }
+    def leftRotateByOne(rotations: Int) = {
+      if (rotations == 0) arr else {
+      }
+    }
   }
 
-
+  leftRotate(n, d)
   println(s"rotated array is ${arr.mkString("[", ",", "]")}")
+
+}
+
+/**
+  * Juggling Algorithm
+  * Time complexity: 0(n)
+  * Space complexity: 0(1)
+  */
+
+object ArrayRotation3 extends App {
+
+  var arr = Array(1, 2, 3, 4, 5, 6, 7)
+  val n = arr.length
+  println("Enter number of rotations: ")
+  val d: Int = scala.io.StdIn.readInt()
+
+  import scala.util.control.Breaks._
+
+  def rightRotate(n: Int, k: Int) = {
+    var i = 0
+    while (i < Utilities.gcd(n, k)) {
+      val temp = arr(i)
+      var j = i
+      breakable {
+        while (true) {
+          val nextIndex = (j + k) % n
+          if (nextIndex == i) break
+          arr(j) = arr(nextIndex)
+          j = nextIndex
+        }
+      }
+
+      arr(j) = temp
+      i += 1
+    }
+
+  }
+
+  rightRotate(n, d)
+  println(s"right rotated array is ${arr.mkString("[", ",", "]")}")
 
 }
