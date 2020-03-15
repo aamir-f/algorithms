@@ -43,3 +43,8 @@ for(p <- pairs){
   println(word1 + ", " + word2 + ": " + anagram)
 }
 }
+
+object Anagrams3 extends App {
+ // (count charcters using one array)
+  // O(n)
+}
