@@ -1,3 +1,4 @@
+package algorithms.strings
 object Anagrams1 extends App {
   def checkUsingSorting(s1: String, s2: String) = {
     val charArray1 = s1.toCharArray.sorted
