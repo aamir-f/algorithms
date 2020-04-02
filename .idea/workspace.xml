@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5152287-336b-4cad-8cdf-be5a8a1765c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/algorithms/math/AckermannsFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/algorithms/math/DecimalToBinary.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/algorithms/math/NthFibonacci.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/algorithms/scala99/P01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/algorithms/searching/LinearSearch.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +79,7 @@
       <recent name="E:\code\ScalaKash\src\main\scala\algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AckermannsFunction">
+  <component name="RunManager" selected="Application.NthFibonacci2">
     <configuration name="AckermannsFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithms.math.AckermannsFunction" />
       <module name="ScalaKash" />
@@ -92,47 +93,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayRotation2" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.arrays.ArrayRotation2" />
-      <module name="ScalaKash" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithms.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayRotation3" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.arrays.ArrayRotation3" />
-      <module name="ScalaKash" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithms.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Boot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="virtualfs.Boot" />
-      <module name="ScalaKash" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="virtualfs.commands.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DecimalToBinary" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="algorithms.math.DecimalToBinary" />
+      <module name="ScalaKash" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.math.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NthFibonacci" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.math.NthFibonacci" />
+      <module name="ScalaKash" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.math.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NthFibonacci1" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.math.NthFibonacci1" />
+      <module name="ScalaKash" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.math.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NthFibonacci2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.math.NthFibonacci2" />
       <module name="ScalaKash" />
       <extension name="coverage">
         <pattern>
@@ -193,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NthFibonacci2" />
+        <item itemvalue="Application.NthFibonacci1" />
+        <item itemvalue="Application.NthFibonacci" />
         <item itemvalue="Application.AckermannsFunction" />
         <item itemvalue="Application.DecimalToBinary" />
-        <item itemvalue="Application.Boot" />
-        <item itemvalue="Application.ArrayRotation3" />
-        <item itemvalue="Application.ArrayRotation2" />
       </list>
     </recent_temporary>
   </component>
@@ -266,9 +267,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="726" y="310" width="524" height="484" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1582740522966">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="683" y="286" width="524" height="484" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1585809778467">
+      <screen x="0" y="23" width="1920" height="979" />
     </state>
+    <state x="683" y="286" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1920.979@0.23.1920.979" timestamp="1585809778467" />
     <state x="726" y="310" width="524" height="484" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1582740522966" />
     <state x="771" y="467" width="434" height="171" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1582214929329">
       <screen x="67" y="27" width="1853" height="1053" />
@@ -286,29 +288,29 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1582223058785" />
-    <state width="1880" height="256" key="GridCell.Tab.0.bottom" timestamp="1585769385658">
+    <state width="1880" height="256" key="GridCell.Tab.0.bottom" timestamp="1585810327020">
       <screen x="0" y="23" width="1920" height="979" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650780" />
-    <state width="1880" height="256" key="GridCell.Tab.0.bottom/0.23.1920.979@0.23.1920.979" timestamp="1585769385658" />
+    <state width="1880" height="256" key="GridCell.Tab.0.bottom/0.23.1920.979@0.23.1920.979" timestamp="1585810327020" />
     <state width="1807" height="307" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="1880" height="256" key="GridCell.Tab.0.center" timestamp="1585769385656">
+    <state width="1880" height="256" key="GridCell.Tab.0.center" timestamp="1585810327019">
       <screen x="0" y="23" width="1920" height="979" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650779" />
-    <state width="1880" height="256" key="GridCell.Tab.0.center/0.23.1920.979@0.23.1920.979" timestamp="1585769385656" />
+    <state width="1880" height="256" key="GridCell.Tab.0.center/0.23.1920.979@0.23.1920.979" timestamp="1585810327019" />
     <state width="1807" height="307" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="1880" height="256" key="GridCell.Tab.0.left" timestamp="1585769385656">
+    <state width="1880" height="256" key="GridCell.Tab.0.left" timestamp="1585810327019">
       <screen x="0" y="23" width="1920" height="979" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650778" />
-    <state width="1880" height="256" key="GridCell.Tab.0.left/0.23.1920.979@0.23.1920.979" timestamp="1585769385656" />
+    <state width="1880" height="256" key="GridCell.Tab.0.left/0.23.1920.979@0.23.1920.979" timestamp="1585810327019" />
     <state width="1807" height="307" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="1880" height="256" key="GridCell.Tab.0.right" timestamp="1585769385657">
+    <state width="1880" height="256" key="GridCell.Tab.0.right" timestamp="1585810327019">
       <screen x="0" y="23" width="1920" height="979" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650779" />
-    <state width="1880" height="256" key="GridCell.Tab.0.right/0.23.1920.979@0.23.1920.979" timestamp="1585769385657" />
+    <state width="1880" height="256" key="GridCell.Tab.0.right/0.23.1920.979@0.23.1920.979" timestamp="1585810327019" />
     <state width="1807" height="307" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
     <state width="1880" height="316" key="GridCell.Tab.1.bottom" timestamp="1585765541708">
       <screen x="0" y="23" width="1920" height="979" />
@@ -334,10 +336,11 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="482" y="187" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1582214751021" />
-    <state x="603" y="351" key="com.intellij.ide.util.TipDialog" timestamp="1584592782947">
-      <screen x="0" y="23" width="1920" height="977" />
+    <state x="603" y="352" key="com.intellij.ide.util.TipDialog" timestamp="1585808168006">
+      <screen x="0" y="23" width="1920" height="979" />
     </state>
     <state x="603" y="351" key="com.intellij.ide.util.TipDialog/0.23.1920.977@0.23.1920.977" timestamp="1584592782947" />
+    <state x="603" y="352" key="com.intellij.ide.util.TipDialog/0.23.1920.979@0.23.1920.979" timestamp="1585808168006" />
     <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1582733217382" />
     <state x="647" y="149" width="683" height="806" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582392937225">
       <screen x="67" y="27" width="1853" height="1053" />
