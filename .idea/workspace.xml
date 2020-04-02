@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5152287-336b-4cad-8cdf-be5a8a1765c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/algorithms/math/NthFibonacci.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/algorithms/scala99/P01.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/algorithms/searching/LinearSearch.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/algorithms/math/NthFibonacci.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/algorithms/math/NthFibonacci.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/algorithms/searching/LinearSearch.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/algorithms/searching/LinearSearch.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +78,7 @@
       <recent name="E:\code\ScalaKash\src\main\scala\algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NthFibonacci2">
+  <component name="RunManager" selected="Application.NthFibonacci1">
     <configuration name="AckermannsFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithms.math.AckermannsFunction" />
       <module name="ScalaKash" />
@@ -194,8 +193,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NthFibonacci2" />
         <item itemvalue="Application.NthFibonacci1" />
+        <item itemvalue="Application.NthFibonacci2" />
         <item itemvalue="Application.NthFibonacci" />
         <item itemvalue="Application.AckermannsFunction" />
         <item itemvalue="Application.DecimalToBinary" />
@@ -288,29 +287,33 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1582223058785" />
-    <state width="1880" height="256" key="GridCell.Tab.0.bottom" timestamp="1585810327020">
-      <screen x="0" y="23" width="1920" height="979" />
+    <state width="1640" height="256" key="GridCell.Tab.0.bottom" timestamp="1585812441400">
+      <screen x="0" y="23" width="1680" height="949" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650780" />
-    <state width="1880" height="256" key="GridCell.Tab.0.bottom/0.23.1920.979@0.23.1920.979" timestamp="1585810327020" />
+    <state width="1640" height="256" key="GridCell.Tab.0.bottom/0.23.1680.949@0.23.1680.949" timestamp="1585812441400" />
+    <state width="1880" height="256" key="GridCell.Tab.0.bottom/0.23.1920.979@0.23.1920.979" timestamp="1585810510669" />
     <state width="1807" height="307" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="1880" height="256" key="GridCell.Tab.0.center" timestamp="1585810327019">
-      <screen x="0" y="23" width="1920" height="979" />
+    <state width="1640" height="256" key="GridCell.Tab.0.center" timestamp="1585812441399">
+      <screen x="0" y="23" width="1680" height="949" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650779" />
-    <state width="1880" height="256" key="GridCell.Tab.0.center/0.23.1920.979@0.23.1920.979" timestamp="1585810327019" />
+    <state width="1640" height="256" key="GridCell.Tab.0.center/0.23.1680.949@0.23.1680.949" timestamp="1585812441399" />
+    <state width="1880" height="256" key="GridCell.Tab.0.center/0.23.1920.979@0.23.1920.979" timestamp="1585810510668" />
     <state width="1807" height="307" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="1880" height="256" key="GridCell.Tab.0.left" timestamp="1585810327019">
-      <screen x="0" y="23" width="1920" height="979" />
+    <state width="1640" height="256" key="GridCell.Tab.0.left" timestamp="1585812441398">
+      <screen x="0" y="23" width="1680" height="949" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650778" />
-    <state width="1880" height="256" key="GridCell.Tab.0.left/0.23.1920.979@0.23.1920.979" timestamp="1585810327019" />
+    <state width="1640" height="256" key="GridCell.Tab.0.left/0.23.1680.949@0.23.1680.949" timestamp="1585812441398" />
+    <state width="1880" height="256" key="GridCell.Tab.0.left/0.23.1920.979@0.23.1920.979" timestamp="1585810510668" />
     <state width="1807" height="307" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="1880" height="256" key="GridCell.Tab.0.right" timestamp="1585810327019">
-      <screen x="0" y="23" width="1920" height="979" />
+    <state width="1640" height="256" key="GridCell.Tab.0.right" timestamp="1585812441399">
+      <screen x="0" y="23" width="1680" height="949" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650779" />
-    <state width="1880" height="256" key="GridCell.Tab.0.right/0.23.1920.979@0.23.1920.979" timestamp="1585810327019" />
+    <state width="1640" height="256" key="GridCell.Tab.0.right/0.23.1680.949@0.23.1680.949" timestamp="1585812441399" />
+    <state width="1880" height="256" key="GridCell.Tab.0.right/0.23.1920.979@0.23.1920.979" timestamp="1585810510669" />
     <state width="1807" height="307" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
     <state width="1880" height="316" key="GridCell.Tab.1.bottom" timestamp="1585765541708">
       <screen x="0" y="23" width="1920" height="979" />

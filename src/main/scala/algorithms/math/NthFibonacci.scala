@@ -17,7 +17,7 @@ object NthFibonacci1 extends App {
   }
 
   val currentTime = System.nanoTime()
-//  println(nthFibonacci(100)) //  354224848179261915075
+   println(nthFibonacci(100)) //  354224848179261915075
   val elapsedTime = ((System.nanoTime() - currentTime) / 1_000_000_000).asInstanceOf[Double]
   println("total time with tail recursion: " + elapsedTime)
 }
@@ -30,7 +30,7 @@ object NthFibonacci2 extends App {
   }
 
   val currentTime = System.nanoTime()
-  println(fiboRecursive(100))
+  println(fiboRecursive(100)) // goes forever
   val elapsedTime = ((System.nanoTime() - currentTime) / 1_000_000_000).asInstanceOf[Double]
   println("total time: " + elapsedTime)
 

@@ -1,9 +1,9 @@
 package algorithms.searching
 
 /**
-  * Worst - O(n)
-  * Best - O(1)
-  * Average - O(n)
+  * Worst - O(n) // upper bound
+  * Best - omega(1) // lower bound
+  * Average - theta(n) here n can be 3 or 4 i.e at 3rd location we found the element
   **/
 object LinearSearch1 extends App {
 
