@@ -20,11 +20,31 @@ object P01 extends App {
   //Chained calls
   def f2[T](list: List[T]): T = list.reverse.head
 
+  // Haskell-like function composition, point-free style
   def f3[T]() = ((_: List[T]).head).compose((_: List[T]).reverse)
+  def f4[T]() = ((_: List[T]).reverse).andThen((_ :List[T]).head)
+
+  //java like implementation with side effects
+  def f5[T](list: List[T]): T = {
+    var result: Option[T] = None
+    for(each <- list) result = Some(each)
+    result.getOrElse(throw new NoSuchElementException("list.empty"))
+  }
+
+  //folding
+  def f6[T](list: List[T]):T =
+    if(list.nonEmpty) list.reduce((a, b) => b) else throw new NoSuchElementException("list.empty")
 
 
+  val list: List[Int] = List(3,4,2,1,8)
 
+  println(f0(list))
+  println(f1(list))
+  println(f2(list))
+  println(f3()(list))
+  println(f4()(list))
+  println(f5(list))
+  println(f6(list))
 
-  def compose[A, T1, R](f: T1 => R, g: A => T1): A => R = x => f(g(x))
 
 }
