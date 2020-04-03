@@ -2,36 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5152287-336b-4cad-8cdf-be5a8a1765c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/algorithms/runtimecomplexity/LargestNumberIterativeRecursive.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/algorithms/scala99/P02.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/algorithms/searching/BinarySearch.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_13_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_13_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4b2099d35437aa95f1d4$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4b2099d35437aa95f1d4.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4b2099d35437aa95f1d4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$6a4333e1d16435957894$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$6a4333e1d16435957894.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$6a4333e1d16435957894.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$73e33b954d891f5658dd$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$73e33b954d891f5658dd.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$73e33b954d891f5658dd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$9facbb07db301af7cab4$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$9facbb07db301af7cab4.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$9facbb07db301af7cab4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/dependencyClasspathFiles/previous" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/dependencyClasspathFiles/previous" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/algorithms/learnbaytracking.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/algorithms/learnbay/learnbaytracking.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/algorithms/scala99/P01.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/algorithms/scala99/P01.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/algorithms/searching/LinearSearch.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/algorithms/searching/LinearSearch.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/learnbaytracking.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/scala99/P01$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/scala99/P01$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/scala99/P01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/scala99/P01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/algorithms/arrays/Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/algorithms/arrays/Notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/algorithms/scala99/P02.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/algorithms/scala99/P02.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +71,7 @@
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15332031" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Scala" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -256,6 +230,7 @@
     </option>
     <option name="modificationStamps">
       <map>
+        <entry key="$PROJECT_DIR$" value="3168920366624" />
         <entry key="$PROJECT_DIR$/build.sbt" value="2067835398" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="3724303870" />
       </map>
@@ -314,33 +289,33 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1582223058785" />
-    <state width="1640" height="298" key="GridCell.Tab.0.bottom" timestamp="1585847975617">
-      <screen x="0" y="23" width="1920" height="979" />
+    <state width="1640" height="298" key="GridCell.Tab.0.bottom" timestamp="1585897965964">
+      <screen x="0" y="23" width="1680" height="949" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650780" />
-    <state width="1640" height="298" key="GridCell.Tab.0.bottom/0.23.1680.949@0.23.1680.949" timestamp="1585841098745" />
-    <state width="1640" height="298" key="GridCell.Tab.0.bottom/0.23.1920.979@0.23.1920.979" timestamp="1585847975617" />
+    <state width="1640" height="298" key="GridCell.Tab.0.bottom/0.23.1680.949@0.23.1680.949" timestamp="1585897965964" />
+    <state width="1640" height="298" key="GridCell.Tab.0.bottom/0.23.1920.979@0.23.1920.979" timestamp="1585855650302" />
     <state width="1807" height="307" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="1640" height="298" key="GridCell.Tab.0.center" timestamp="1585847975616">
-      <screen x="0" y="23" width="1920" height="979" />
+    <state width="1640" height="298" key="GridCell.Tab.0.center" timestamp="1585897965964">
+      <screen x="0" y="23" width="1680" height="949" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650779" />
-    <state width="1640" height="298" key="GridCell.Tab.0.center/0.23.1680.949@0.23.1680.949" timestamp="1585841098744" />
-    <state width="1640" height="298" key="GridCell.Tab.0.center/0.23.1920.979@0.23.1920.979" timestamp="1585847975616" />
+    <state width="1640" height="298" key="GridCell.Tab.0.center/0.23.1680.949@0.23.1680.949" timestamp="1585897965964" />
+    <state width="1640" height="298" key="GridCell.Tab.0.center/0.23.1920.979@0.23.1920.979" timestamp="1585855650301" />
     <state width="1807" height="307" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="1640" height="298" key="GridCell.Tab.0.left" timestamp="1585847975616">
-      <screen x="0" y="23" width="1920" height="979" />
+    <state width="1640" height="298" key="GridCell.Tab.0.left" timestamp="1585897965963">
+      <screen x="0" y="23" width="1680" height="949" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650778" />
-    <state width="1640" height="298" key="GridCell.Tab.0.left/0.23.1680.949@0.23.1680.949" timestamp="1585841098744" />
-    <state width="1640" height="298" key="GridCell.Tab.0.left/0.23.1920.979@0.23.1920.979" timestamp="1585847975616" />
+    <state width="1640" height="298" key="GridCell.Tab.0.left/0.23.1680.949@0.23.1680.949" timestamp="1585897965963" />
+    <state width="1640" height="298" key="GridCell.Tab.0.left/0.23.1920.979@0.23.1920.979" timestamp="1585855650300" />
     <state width="1807" height="307" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="1640" height="298" key="GridCell.Tab.0.right" timestamp="1585847975617">
-      <screen x="0" y="23" width="1920" height="979" />
+    <state width="1640" height="298" key="GridCell.Tab.0.right" timestamp="1585897965964">
+      <screen x="0" y="23" width="1680" height="949" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650779" />
-    <state width="1640" height="298" key="GridCell.Tab.0.right/0.23.1680.949@0.23.1680.949" timestamp="1585841098745" />
-    <state width="1640" height="298" key="GridCell.Tab.0.right/0.23.1920.979@0.23.1920.979" timestamp="1585847975617" />
+    <state width="1640" height="298" key="GridCell.Tab.0.right/0.23.1680.949@0.23.1680.949" timestamp="1585897965964" />
+    <state width="1640" height="298" key="GridCell.Tab.0.right/0.23.1920.979@0.23.1920.979" timestamp="1585855650302" />
     <state width="1807" height="307" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
     <state width="1880" height="316" key="GridCell.Tab.1.bottom" timestamp="1585765541708">
       <screen x="0" y="23" width="1920" height="979" />
@@ -362,17 +337,18 @@
     </state>
     <state width="1640" height="247" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1585739432815" />
     <state width="1880" height="316" key="GridCell.Tab.1.right/0.23.1920.979@0.23.1920.979" timestamp="1585765541708" />
-    <state x="430" y="168" key="SettingsEditor" timestamp="1585829706027">
-      <screen x="0" y="23" width="1920" height="979" />
+    <state x="376" y="164" key="SettingsEditor" timestamp="1585896600253">
+      <screen x="0" y="23" width="1680" height="949" />
     </state>
+    <state x="376" y="164" key="SettingsEditor/0.23.1680.949@0.23.1680.949" timestamp="1585896600253" />
     <state x="430" y="168" key="SettingsEditor/0.23.1920.979@0.23.1920.979" timestamp="1585829706027" />
     <state x="482" y="187" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1582214751021" />
-    <state x="528" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1585841136939">
-      <screen x="0" y="23" width="1680" height="949" />
+    <state x="528" y="372" key="com.intellij.ide.util.TipDialog" timestamp="1585892433693">
+      <screen x="0" y="23" width="1920" height="979" />
     </state>
     <state x="528" y="342" key="com.intellij.ide.util.TipDialog/0.23.1680.949@0.23.1680.949" timestamp="1585841136939" />
     <state x="603" y="351" key="com.intellij.ide.util.TipDialog/0.23.1920.977@0.23.1920.977" timestamp="1584592782947" />
-    <state x="603" y="352" key="com.intellij.ide.util.TipDialog/0.23.1920.979@0.23.1920.979" timestamp="1585823399266" />
+    <state x="528" y="372" key="com.intellij.ide.util.TipDialog/0.23.1920.979@0.23.1920.979" timestamp="1585892433693" />
     <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1582733217382" />
     <state x="647" y="149" width="683" height="806" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582392937225">
       <screen x="67" y="27" width="1853" height="1053" />

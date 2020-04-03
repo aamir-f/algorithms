@@ -12,10 +12,9 @@ Questions
 Theory
 ========================
 1.) Arrays can hold data of any type.
-2.) Random access and update i.e arr(0) and arr.set(3, "a"), constant 0(1)
-3.) fixed size
-4.) arr.insert(2, "b"), shifts elements upstream, so, 0(n), same for arr.delete(2) , shifts elements downstream (in delete don't actually delete , just shift elements, so one step less than insert)
-5.) array capacity is one notion and other notion is number of elements.
+2.) Time-Complexity: WorstCase: Access 0(1) , Search 0(n), Insertion 0(n), Deletion 0(n), Space-Complexity: WorstCase: 0(n)
+6.) search an element is 0(n)
+
 
 
 
