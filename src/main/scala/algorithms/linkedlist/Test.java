@@ -2,101 +2,107 @@ package algorithms.linkedlist;
 
 public class Test {
 
+    // A complete working Java program to delete a node in a linked list
+// at a given position
 
-// Java program for insertion in a single linked
-// list at a specified position
+        Node head; // head of list
 
-        // A linked list Node
-        static class Node {
-            public int data;
-            public Node nextNode;
-
-            // inserting the required data
-            public Node(int data) {
-                this.data = data;
-
+        /* Linked list Node*/
+        class Node
+        {
+            int data;
+            Node next;
+            Node(int d)
+            {
+                data = d;
+                next = null;
             }
         }
 
-        // function to create and return a Node
-        static Node GetNode(int data) {
-            return new Node(data);
+        /* Inserts a new Node at front of the list. */
+        public void push(int new_data)
+        {
+		/* 1 & 2: Allocate the Node &
+				Put in the data*/
+            Node new_node = new Node(new_data);
+
+            /* 3. Make next of new Node as head */
+            new_node.next = head;
+
+            /* 4. Move the head to point to new Node */
+            head = new_node;
         }
 
-        // function to insert a Node at required position
-        static Node InsertPos(Node headNode, int position, int data) {
-            Node head = headNode;
-            if (position < 1)
-                System.out.print("Invalid position");
+        /* Given a reference (pointer to pointer) to the head of a list
+        and a position, deletes the node at the given position */
+        void deleteNode(int position)
+        {
+            // If linked list is empty
+            if (head == null)
+                return;
 
-            // if position is 1 then new node is
-            // set infornt of head node
-            // head node is changing.
-            if (position == 1) {
-                Node newNode = new Node(data);
-                newNode.nextNode = headNode;
-                head = newNode;
-            } else {
-                while (position-- != 0) {
-                    System.out.println("position ==>" + position);
-                    if (position == 1) {
-                        // adding Node at required position
-                        Node newNode = GetNode(data);
+            // Store head node
+            Node temp = head;
 
-                        // Making the new Node to point to
-                        // the old Node at the same position
-                        newNode.nextNode = headNode.nextNode;
-
-                        // Replacing current with new Node
-                        // to the old Node to point to the new Node
-                        headNode.nextNode = newNode;
-                        break;
-                    }
-                    headNode = headNode.nextNode;
-                }
-                if (position != 1)
-                    System.out.print("Position out of range");
+            // If head needs to be removed
+            if (position == 0)
+            {
+                head = temp.next; // Change head
+                return;
             }
-            return head;
+
+            // Find previous node of the node to be deleted
+            for (int i=0; temp!=null && i<position-1; i++)
+                temp = temp.next;
+
+            // If position is more than number of ndoes
+            if (temp == null || temp.next == null)
+                return;
+
+            // Node temp->next is the node to be deleted
+            // Store pointer to the next of node to be deleted
+            Node next = temp.next.next;
+
+            temp.next = next; // Unlink the deleted node from list
         }
 
-        static void PrintList(Node node) {
-            while (node != null) {
-                System.out.print(node.data);
-                node = node.nextNode;
-                if (node != null)
-                    System.out.print(",");
+        /* This function prints contents of linked list starting from
+            the given node */
+        public void printList()
+        {
+            Node tnode = head;
+            while (tnode != null)
+            {
+                System.out.print(tnode.data+" ");
+                tnode = tnode.next;
             }
-            System.out.println();
         }
 
-        // Driver code
-        public static void main(String[] args) {
-            Node head = GetNode(3);
-            head.nextNode = GetNode(5);
-            head.nextNode.nextNode = GetNode(8);
-            head.nextNode.nextNode.nextNode = GetNode(10);
+        /* Drier program to test above functions. Ideally this function
+        should be in a separate user class. It is kept here to keep
+        code compact */
+        public static void main(String[] args)
+        {
+            /* Start with the empty list */
+            Test llist = new Test();
+            llist.push(12);
+            llist.push(4);
+            llist.push(3);
+            llist.push(2);
+            llist.push(6);
+            llist.push(1);
 
-            System.out.print("Linked list before insertion: ");
-            PrintList(head);
+            System.out.println("\nCreated Linked list is: ");
+            llist.printList();
 
-            int data = 12, pos = 3;
-            head = InsertPos(head, pos, data);
-            System.out.print("Linked list after" + " insertion of 12 at position 3: ");
-            PrintList(head);
+            llist.deleteNode(2); // Delete node at position 4
 
-            // front of the linked list
-            data = 1;
-            pos = 1;
-            head = InsertPos(head, pos, data);
-            System.out.print("Linked list after" + "insertion of 1 at position 1: ");
-            PrintList(head);
-
-            // insetion at end of the linked list
-            data = 15;
-            pos = 7;
-            head = InsertPos(head, pos, data);
-            System.out.print("Linked list after" + " insertion of 15 at position 7: ");
-            PrintList(head);
+            System.out.println("\nLinked List after Deletion at position 4: ");
+            llist.printList();
         }
-    }
+
+
+
+
+
+}

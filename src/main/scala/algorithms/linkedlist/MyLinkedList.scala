@@ -8,37 +8,7 @@ import scala.util.control.Breaks
 case class LinkedList[T]() {
   var head: Node[T] = null;
 
-  def push(data: T) = {
-    head match {
-      case null => head =  Node(data, null)
 
-      case _ => {
-        var last: Node[T] = head;
-
-        while (last.next != null) {
-          last = last.next;
-        }
-
-        last.next =  Node[T](data, null);
-      }
-    }
-  }
-
-  def append(data:T) = {
-    push(data);
-  }
-
-  def prepend(data:T): Unit = {
-    val tempHead:Node[T]  =  Node[T](data,head);
-    head = tempHead;
-  }
-
-  def print() = {
-    if (head != null) {
-      head.printList();
-    }
-    println();
-  }
 
   def delete(deleteItem: T) = {
     var previousNode: Node[T] = head
@@ -79,17 +49,6 @@ case class LinkedList[T]() {
     head = previous;
   }
 
-  def getDataByIndex(index: Int): T = {
-    var currentNode = head
-    var currentIndex = 0;
-
-    while (!currentIndex.equals(index)) {
-      currentNode = currentNode.next
-      currentIndex += 1;
-    }
-
-    currentNode.data;
-  }
 
 }
 

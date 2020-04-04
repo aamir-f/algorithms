@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5152287-336b-4cad-8cdf-be5a8a1765c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/algorithms/linkedlist/MyLinkedList.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/algorithms/linkedlist/SimpleLinkedList.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/algorithms/linkedlist/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/algorithms/linkedlist/notes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/algorithms/arrays/Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/algorithms/arrays/Notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/algorithms/notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/algorithms/notes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/algorithms/scala99/P02.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/algorithms/scala99/P02.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/arrays/Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/arrays/Notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/notes" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/notes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/scala99/P02$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/scala99/P02$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/scala99/P02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/scala99/P02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/algorithms/linkedlist/MyLinkedList.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/algorithms/linkedlist/MyLinkedList.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/algorithms/linkedlist/SimpleLinkedList.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/algorithms/linkedlist/SimpleLinkedList.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/algorithms/linkedlist/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/algorithms/linkedlist/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/algorithms/linkedlist/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/algorithms/linkedlist/notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/linkedlist/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/linkedlist/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/linkedlist/SinglyLinkedListTest$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/linkedlist/SinglyLinkedListTest$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/linkedlist/SinglyLinkedListTest$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/linkedlist/SinglyLinkedListTest$delayedInit$body.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/linkedlist/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/linkedlist/Test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -299,54 +296,54 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1582223058785" />
-    <state width="1850" height="308" key="GridCell.Tab.0.bottom" timestamp="1585992212483">
+    <state width="1850" height="292" key="GridCell.Tab.0.bottom" timestamp="1585997466432">
       <screen x="0" y="23" width="1920" height="979" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650780" />
     <state width="1640" height="298" key="GridCell.Tab.0.bottom/0.23.1680.949@0.23.1680.949" timestamp="1585985024779" />
-    <state width="1850" height="308" key="GridCell.Tab.0.bottom/0.23.1920.979@0.23.1920.979" timestamp="1585992212483" />
+    <state width="1850" height="292" key="GridCell.Tab.0.bottom/0.23.1920.979@0.23.1920.979" timestamp="1585997466432" />
     <state width="1807" height="307" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="1850" height="308" key="GridCell.Tab.0.center" timestamp="1585992212482">
+    <state width="1850" height="292" key="GridCell.Tab.0.center" timestamp="1585997466431">
       <screen x="0" y="23" width="1920" height="979" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650779" />
     <state width="1640" height="298" key="GridCell.Tab.0.center/0.23.1680.949@0.23.1680.949" timestamp="1585985024778" />
-    <state width="1850" height="308" key="GridCell.Tab.0.center/0.23.1920.979@0.23.1920.979" timestamp="1585992212482" />
+    <state width="1850" height="292" key="GridCell.Tab.0.center/0.23.1920.979@0.23.1920.979" timestamp="1585997466431" />
     <state width="1807" height="307" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="1850" height="308" key="GridCell.Tab.0.left" timestamp="1585992212481">
+    <state width="1850" height="292" key="GridCell.Tab.0.left" timestamp="1585997466430">
       <screen x="0" y="23" width="1920" height="979" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650778" />
     <state width="1640" height="298" key="GridCell.Tab.0.left/0.23.1680.949@0.23.1680.949" timestamp="1585985024777" />
-    <state width="1850" height="308" key="GridCell.Tab.0.left/0.23.1920.979@0.23.1920.979" timestamp="1585992212481" />
+    <state width="1850" height="292" key="GridCell.Tab.0.left/0.23.1920.979@0.23.1920.979" timestamp="1585997466430" />
     <state width="1807" height="307" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="1850" height="308" key="GridCell.Tab.0.right" timestamp="1585992212483">
+    <state width="1850" height="292" key="GridCell.Tab.0.right" timestamp="1585997466432">
       <screen x="0" y="23" width="1920" height="979" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650779" />
     <state width="1640" height="298" key="GridCell.Tab.0.right/0.23.1680.949@0.23.1680.949" timestamp="1585985024778" />
-    <state width="1850" height="308" key="GridCell.Tab.0.right/0.23.1920.979@0.23.1920.979" timestamp="1585992212483" />
+    <state width="1850" height="292" key="GridCell.Tab.0.right/0.23.1920.979@0.23.1920.979" timestamp="1585997466432" />
     <state width="1807" height="307" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="1850" height="404" key="GridCell.Tab.1.bottom" timestamp="1585989605068">
+    <state width="1850" height="404" key="GridCell.Tab.1.bottom" timestamp="1585996849943">
       <screen x="0" y="23" width="1920" height="979" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1585739432816" />
-    <state width="1850" height="404" key="GridCell.Tab.1.bottom/0.23.1920.979@0.23.1920.979" timestamp="1585989605068" />
-    <state width="1850" height="404" key="GridCell.Tab.1.center" timestamp="1585989605067">
+    <state width="1850" height="404" key="GridCell.Tab.1.bottom/0.23.1920.979@0.23.1920.979" timestamp="1585996849943" />
+    <state width="1850" height="404" key="GridCell.Tab.1.center" timestamp="1585996849942">
       <screen x="0" y="23" width="1920" height="979" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1585739432815" />
-    <state width="1850" height="404" key="GridCell.Tab.1.center/0.23.1920.979@0.23.1920.979" timestamp="1585989605067" />
-    <state width="1850" height="404" key="GridCell.Tab.1.left" timestamp="1585989605067">
+    <state width="1850" height="404" key="GridCell.Tab.1.center/0.23.1920.979@0.23.1920.979" timestamp="1585996849942" />
+    <state width="1850" height="404" key="GridCell.Tab.1.left" timestamp="1585996849942">
       <screen x="0" y="23" width="1920" height="979" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1585739432815" />
-    <state width="1850" height="404" key="GridCell.Tab.1.left/0.23.1920.979@0.23.1920.979" timestamp="1585989605067" />
-    <state width="1850" height="404" key="GridCell.Tab.1.right" timestamp="1585989605068">
+    <state width="1850" height="404" key="GridCell.Tab.1.left/0.23.1920.979@0.23.1920.979" timestamp="1585996849942" />
+    <state width="1850" height="404" key="GridCell.Tab.1.right" timestamp="1585996849942">
       <screen x="0" y="23" width="1920" height="979" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1585739432815" />
-    <state width="1850" height="404" key="GridCell.Tab.1.right/0.23.1920.979@0.23.1920.979" timestamp="1585989605068" />
+    <state width="1850" height="404" key="GridCell.Tab.1.right/0.23.1920.979@0.23.1920.979" timestamp="1585996849942" />
     <state x="376" y="164" key="SettingsEditor" timestamp="1585896600253">
       <screen x="0" y="23" width="1680" height="949" />
     </state>

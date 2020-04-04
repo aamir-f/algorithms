@@ -69,6 +69,61 @@ case class LinkedList[T]() {
   override def toString: String = {
     if (head != null) head.toString else ""
   }
+
+  def getDataByIndex(index: Int): T = {
+    def loop(node: Node[T], index: Int): T = {
+      if (index == 0) node.data else loop(node.next, index - 1)
+    }
+
+    if (head == null) {
+      throw new NoSuchElementException("empty.singlylinkedlist")
+    } else if ((index < 0 || index > size - 1)) {
+      throw new IllegalArgumentException("invalid index")
+    } else loop(head, index)
+
+  }
+
+  def searchNodeByData(data: T) = ???
+
+  def deleteNodeByData(data: T) = {
+    if (head != null && data == head.data) head = head.next
+
+    def loop(prev: Node[T], node: Node[T]): Unit = {
+      if (node == null) return else {
+        if (node.data == data) {
+          prev.next = node.next
+        } else loop(node, node.next)
+      }
+
+    }
+
+    if (head == null) {
+      throw new NoSuchElementException("empty singly linked list")
+    } else loop(head, head.next)
+
+  }
+
+  def deleteNthNode(pos: Int) = {
+    if (pos == 0) {
+      if (head == null) {
+        throw new NoSuchElementException("empty singly linked list")
+      } else {
+        head = head.next
+      }
+    } else {
+      def loop(prev: Node[T], node: Node[T], pos: Int): Unit = {
+        if (node.next == null && pos > 0) return
+        else if (pos == 0) prev.next = node.next
+        else loop(node, node.next, pos - 1)
+      }
+
+      loop(head, head.next, pos - 1)
+    }
+  }
+
+  def deleteList = head = null
+
+
 }
 
 
@@ -88,8 +143,22 @@ object SinglyLinkedListTest extends App {
   list.insertMiddle(6, 3)
   println(list)
   println(list.size)
-  list.insertMiddle(12, 8)
+  list.insertMiddle(12, 7)
   println(list)
   println(list.size)
+
+  println("*" * 20)
+  println(list.getDataByIndex(3))
+  println("-" * 20)
+  list.deleteNodeByData(666)
+  println(list)
+  println("==" * 20)
+  list.deleteNthNode(0)
+  println(list)
+  list.deleteNthNode(5)
+  println(list)
+  list.deleteNthNode(12)
+  println(list)
+
 
 }
