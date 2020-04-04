@@ -6,9 +6,7 @@ import scala.annotation.tailrec
 
 object P02 extends App {
 
-  val l: PartialFunction[Int, Int] = List(1, 2, 3)
-  val lifted: Int => Option[Int] = l.lift
-  val x: Option[Int] = lifted(0)
+
 
   //tail recursion
   @tailrec

@@ -13,7 +13,6 @@ Theory
 ========================
 1.) Arrays can hold data of any type.
 2.) Time-Complexity: WorstCase: Access 0(1) , Search 0(n), Insertion 0(n), Deletion 0(n), Space-Complexity: WorstCase: 0(n)
-6.) search an element is 0(n)
 
 
 

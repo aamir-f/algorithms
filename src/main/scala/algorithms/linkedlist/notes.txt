@@ -1,0 +1,1 @@
+4.)Linked list is a linear DS where each element is a separate object.Node(value, ref to next node).LL is of variable size
