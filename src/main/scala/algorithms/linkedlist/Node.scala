@@ -5,6 +5,6 @@ class Node[T](var data: T, var next: Node[T]) {
 
   def getNext: Node[T] = this.next;
 
-  //override def toString: String = if (next == null) data + "" else data + "," + next.toString
+  override def toString: String = if (next == null) data + "" else data + "," + next.toString
 
 }

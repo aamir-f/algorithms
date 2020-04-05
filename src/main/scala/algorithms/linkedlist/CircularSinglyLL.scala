@@ -84,5 +84,5 @@ object CircularSinglyLLTest extends App {
   cLL.append(5)
   cLL.prepend(1)
   cLL.addAfter(6, 5)
-  cLL.traverse
+  println(cLL)
 }
