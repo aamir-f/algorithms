@@ -103,25 +103,30 @@ case class LinkedList[T]() {
 
   }
 
-  def deleteNthNode(pos: Int) = {
-    if (pos == 0) {
+  def deleteAtIndex(index: Int) = {
+    if (index == 0) {
       if (head == null) {
-        throw new NoSuchElementException("empty singly linked list")
+        ""
       } else {
         head = head.next
       }
     } else {
-      def loop(prev: Node[T], node: Node[T], pos: Int): Unit = {
-        if (node.next == null && pos > 0) return
-        else if (pos == 0) prev.next = node.next
-        else loop(node, node.next, pos - 1)
-      }
+      if (index > size - 1) {
+        ""
+      } else {
+        def loop(prev: Node[T], node: Node[T], index: Int): Unit = {
+          if (node.next == null && index > 0) return
+          else if (index == 0) prev.next = node.next
+          else loop(node, node.next, index - 1)
+        }
 
-      loop(head, head.next, pos - 1)
+        loop(head, head.next, index - 1)
+      }
     }
   }
 
   def deleteList = head = null
+  def reverse = ???
 
 
 }
@@ -153,11 +158,11 @@ object SinglyLinkedListTest extends App {
   list.deleteNodeByData(666)
   println(list)
   println("==" * 20)
-  list.deleteNthNode(0)
+  list.deleteAtIndex(0)
   println(list)
-  list.deleteNthNode(5)
+  list.deleteAtIndex(5)
   println(list)
-  list.deleteNthNode(12)
+  list.deleteAtIndex(12)
   println(list)
 
 

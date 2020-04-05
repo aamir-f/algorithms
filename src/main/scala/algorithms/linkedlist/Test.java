@@ -2,107 +2,134 @@ package algorithms.linkedlist;
 
 public class Test {
 
-    // A complete working Java program to delete a node in a linked list
-// at a given position
 
-        Node head; // head of list
-
-        /* Linked list Node*/
-        class Node
+        static class Node
         {
             int data;
             Node next;
-            Node(int d)
-            {
-                data = d;
-                next = null;
-            }
-        }
+        };
 
-        /* Inserts a new Node at front of the list. */
-        public void push(int new_data)
+        static Node addToEmpty(Node last, int data)
         {
-		/* 1 & 2: Allocate the Node &
-				Put in the data*/
-            Node new_node = new Node(new_data);
+            // This function is only for empty list
+            if (last != null)
+                return last;
 
-            /* 3. Make next of new Node as head */
-            new_node.next = head;
+            // Creating a node dynamically.
+            Node temp = new Node();
 
-            /* 4. Move the head to point to new Node */
-            head = new_node;
+            // Assigning the data.
+            temp.data = data;
+            last = temp;
+
+            // Creating the link.
+            last.next = last;
+
+            return last;
         }
 
-        /* Given a reference (pointer to pointer) to the head of a list
-        and a position, deletes the node at the given position */
-        void deleteNode(int position)
+        static Node addBegin(Node last, int data)
         {
-            // If linked list is empty
-            if (head == null)
-                return;
+            if (last == null)
+                return addToEmpty(last, data);
 
-            // Store head node
-            Node temp = head;
+            Node temp = new Node();
 
-            // If head needs to be removed
-            if (position == 0)
+            temp.data = data;
+            temp.next = last.next;
+            last.next = temp;
+
+            return last;
+        }
+
+        static Node addEnd(Node last, int data)
+        {
+            if (last == null)
+                return addToEmpty(last, data);
+
+            Node temp = new Node();
+
+            temp.data = data;
+            temp.next = last.next;
+            last.next = temp;
+            last = temp;
+
+            return last;
+        }
+
+        static Node addAfter(Node last, int data, int item)
+        {
+            if (last == null)
+                return null;
+
+            Node temp, p;
+            p = last.next;
+            do
             {
-                head = temp.next; // Change head
+                if (p.data == item)
+                {
+                    temp = new Node();
+                    temp.data = data;
+                    temp.next = p.next;
+                    p.next = temp;
+
+                    if (p == last)
+                        last = temp;
+                    return last;
+                }
+                p = p.next;
+            } while(p != last.next);
+
+            System.out.println(item + " not present in the list.");
+            return last;
+
+        }
+
+        static void traverse(Node last)
+        {
+            Node p;
+
+            // If list is empty, return.
+            if (last == null)
+            {
+                System.out.println("List is empty.");
                 return;
             }
 
-            // Find previous node of the node to be deleted
-            for (int i=0; temp!=null && i<position-1; i++)
-                temp = temp.next;
+            // Pointing to first Node of the list.
+            p = last.next;
 
-            // If position is more than number of ndoes
-            if (temp == null || temp.next == null)
-                return;
-
-            // Node temp->next is the node to be deleted
-            // Store pointer to the next of node to be deleted
-            Node next = temp.next.next;
-
-            temp.next = next; // Unlink the deleted node from list
-        }
-
-        /* This function prints contents of linked list starting from
-            the given node */
-        public void printList()
-        {
-            Node tnode = head;
-            while (tnode != null)
+            // Traversing the list.
+            do
             {
-                System.out.print(tnode.data+" ");
-                tnode = tnode.next;
+                System.out.print(p.data + " ");
+                p = p.next;
+
             }
+            while(p != last.next);
+
         }
 
-        /* Drier program to test above functions. Ideally this function
-        should be in a separate user class. It is kept here to keep
-        code compact */
+        // Driven code
         public static void main(String[] args)
         {
-            /* Start with the empty list */
-            Test llist = new Test();
-            llist.push(12);
-            llist.push(4);
-            llist.push(3);
-            llist.push(2);
-            llist.push(6);
-            llist.push(1);
+            Node last = null;
 
-            System.out.println("\nCreated Linked list is: ");
-            llist.printList();
+            last = addToEmpty(last, 6);
+            last = addBegin(last, 4);
+            last = addBegin(last, 2);
+            last = addEnd(last, 8);
+            last = addEnd(last, 12);
 
-            llist.deleteNode(2); // Delete node at position 4
+            traverse(last);
+            System.out.println();
+            last = addAfter(last, 111, 12);
 
-            System.out.println("\nLinked List after Deletion at position 4: ");
-            llist.printList();
+            traverse(last);
         }
+    }
+
+    /* This code contributed by PrinciRaj1992 */
 
 
 
-
-
-}
