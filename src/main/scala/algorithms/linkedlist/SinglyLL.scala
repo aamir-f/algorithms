@@ -1,27 +1,20 @@
 package algorithms.linkedlist
 
-sealed case class Node[T](var data: T, var next: Node[T]) {
-  def getData: T = this.data
+import algorithms.linkedlist.Node
 
-  def getNext: Node[T] = this.next;
-
-  override def toString: String = if (next == null) data + "" else data + "," + next.toString
-
-}
-
-case class LinkedList[T]() {
+case class SinglyLL[T]() {
   var head: Node[T] = null;
 
   //0(n)
   def append(data: T) = {
     head match {
-      case null => head = Node(data, null)
+      case null => head = new Node(data, null)
       case _    => {
         var last: Node[T] = head;
         while (last.next != null) {
           last = last.next;
         }
-        last.next = Node[T](data, null);
+        last.next = new Node[T](data, null);
       }
     }
   }
@@ -36,7 +29,7 @@ case class LinkedList[T]() {
 
   //0(1)
   def prepend(data: T): Unit = {
-    val tempHead: Node[T] = Node[T](data, head);
+    val tempHead: Node[T] = new Node[T](data, head);
     head = tempHead;
   }
 
@@ -52,7 +45,7 @@ case class LinkedList[T]() {
       head = newNode
     } else {
       if (pos > 1 && pos <= size + 1) {
-        val newNode: Node[T] = Node(data, null)
+        val newNode: Node[T] = new Node(data, null)
 
         def loop(node: Node[T], pos: Int): Unit = {
           if (pos == 1) {
@@ -134,7 +127,7 @@ case class LinkedList[T]() {
 
 object SinglyLinkedListTest extends App {
 
-  var list: LinkedList[Int] = new LinkedList();
+  var list: SinglyLL[Int] = new SinglyLL();
 
   list.append(2);
   list.append(3);
