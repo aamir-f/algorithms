@@ -1,5 +1,5 @@
 package algorithms.linkedlist
-
+class Node[T](var data: T, var next: Node[T])
 class CircularSinglyLL[T] {
   var last: Node[T] = null
 

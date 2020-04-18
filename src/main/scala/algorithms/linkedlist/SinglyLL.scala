@@ -1,7 +1,5 @@
 package algorithms.linkedlist
 
-import algorithms.linkedlist.Node
-
 case class SinglyLL[T]() {
   var head: Node[T] = null;
 
@@ -19,6 +17,21 @@ case class SinglyLL[T]() {
     }
   }
 
+  def prepend(data: T): Unit = {
+    val tempHead: Node[T] = new Node[T](data, head);
+    head = tempHead;
+  }
+
+  def insertAfter(prevNode: Node[T], data: T) = {
+    var newNode = new Node(data, null)
+    if (prevNode == null)
+      print("prev node is empty")
+    else {
+      newNode.next = prevNode.next
+      prevNode.next = newNode
+    }
+  }
+
   def size: Int = {
     def loop(node: Node[T], acc: Int): Int = {
       if (node.next == null) acc else loop(node.next, acc + 1)
@@ -27,59 +40,16 @@ case class SinglyLL[T]() {
     if (head == null) 0 else loop(head, 1)
   }
 
-  //0(1)
-  def prepend(data: T): Unit = {
-    val tempHead: Node[T] = new Node[T](data, head);
-    head = tempHead;
-  }
-
-  /* if position is 1 then new node is
-   set infornt of head node
-   head node is changing.
-   */
-  //0(n)
-  def insertMiddle(data: T, pos: Int) = {
-    if (pos == 1) {
-      val newNode = new Node(data, null)
-      newNode.next = head
-      head = newNode
-    } else {
-      if (pos > 1 && pos <= size + 1) {
-        val newNode: Node[T] = new Node(data, null)
-
-        def loop(node: Node[T], pos: Int): Unit = {
-          if (pos == 1) {
-            newNode.next = node.next
-            node.next = newNode
-          } else loop(node.next, pos - 1)
-        }
-
-        loop(head, pos - 1)
-      } else throw new IllegalArgumentException("invalid position")
-    }
-  }
-
-  override def toString: String = {
-    if (head != null) head.toString else ""
-  }
-
-  def getDataByIndex(index: Int): T = {
-    def loop(node: Node[T], index: Int): T = {
-      if (index == 0) node.data else loop(node.next, index - 1)
+  def printLinkedList = {
+    def loop(node: Node[T], accString: String): String = {
+      if (node == null) accString
+      else loop(node.next, accString + node.data + " ")
     }
 
-    if (head == null) {
-      throw new NoSuchElementException("empty.singlylinkedlist")
-    } else if ((index < 0 || index > size - 1)) {
-      throw new IllegalArgumentException("invalid index")
-    } else loop(head, index)
-
+    println(loop(head, ""))
   }
-
-  def searchNodeByData(data: T) = ???
 
   def deleteNodeByData(data: T) = {
-    if (head != null && data == head.data) head = head.next
 
     def loop(prev: Node[T], node: Node[T]): Unit = {
       if (node == null) return else {
@@ -91,35 +61,80 @@ case class SinglyLL[T]() {
     }
 
     if (head == null) {
-      throw new NoSuchElementException("empty singly linked list")
-    } else loop(head, head.next)
+      println("deleting node by data of empty linked list")
+    } else if (data == head.data) head = head.next
+
+
+    else loop(head, head.next)
 
   }
 
-  def deleteAtIndex(index: Int) = {
-    if (index == 0) {
-      if (head == null) {
-        ""
-      } else {
-        head = head.next
-      }
+  def deleteLastNode() = {
+    if (head == null) {
+      println("delete last node of empty list")
+    } else if (head.next == null) {
+      head = null
     } else {
-      if (index > size - 1) {
-        ""
+      def loop(node: Node[T]): Unit = {
+        if (node.next.next == null) node.next = null
+        else loop(node.next)
+      }
+
+      loop(head)
+    }
+  }
+
+  def deleteFirstNode() = {
+    if (head == null) {
+      println("deleting first node of empty linked list")
+    } else {
+      head = head.next
+    }
+  }
+
+  def deleteAtIndex(index: Int) = {
+    if (index < 0) println("index must be greater than zero") else {
+      if (head == null) {
+        println("delete by index of empty linked list")
+      } else if (index == 0) {
+        head = head.next
       } else {
-        def loop(prev: Node[T], node: Node[T], index: Int): Unit = {
-          if (node.next == null && index > 0) return
-          else if (index == 0) prev.next = node.next
-          else loop(node, node.next, index - 1)
+
+        def loop(temp: Node[T], counter: Int): Node[T] = {
+          if (temp == null || counter >= index - 1) temp // 0 >= -21
+          else loop(temp.next, counter + 1)
         }
 
-        loop(head, head.next, index - 1)
+        val temp: Node[T] = loop(head, 0)
+        if (temp != null) {
+          if (temp.next != null)
+            temp.next = temp.next.next
+        }
+
       }
     }
   }
 
-  def deleteList = head = null
-  def reverse = ???
+  def getDataByIndex(index: Int) = {
+    if (index < 0) println("index must be greater than zero") else {
+      if (head == null) {
+        println("delete by index of empty linked list")
+      } else if (index == 0) {
+        head.data
+      } else {
+
+        def loop(temp: Node[T], counter: Int): Node[T] = {
+          if (temp == null || counter >= index) temp // 0 >= -21
+          else loop(temp.next, counter + 1)
+        }
+
+        val temp: Node[T] = loop(head, 0)
+        if (temp != null) temp.data
+      }
+    }
+  }
+
+    def reverse = ???
 
 
 }
@@ -129,34 +144,16 @@ object SinglyLinkedListTest extends App {
 
   var list: SinglyLL[Int] = new SinglyLL();
 
-  list.append(2);
-  list.append(3);
-  list.append(4);
-  list.prepend(1);
-  println(list)
-  println(list.size)
-  list.insertMiddle(5, 1)
-  println(list)
-  println(list.size)
-  list.insertMiddle(6, 3)
-  println(list)
-  println(list.size)
-  list.insertMiddle(12, 7)
-  println(list)
-  println(list.size)
+  list.append(2)
+  list.append(4)
+  list.prepend(1)
+  list.insertAfter(list.head.next, 3)
+  list.append(5)
+  list.append(6)
+  list.append(7)
 
-  println("*" * 20)
-  println(list.getDataByIndex(3))
-  println("-" * 20)
-  list.deleteNodeByData(666)
-  println(list)
-  println("==" * 20)
-  list.deleteAtIndex(0)
-  println(list)
-  list.deleteAtIndex(5)
-  println(list)
-  list.deleteAtIndex(12)
-  println(list)
+  list.printLinkedList
+  println(list.getDataByIndex(6))
 
 
 }
