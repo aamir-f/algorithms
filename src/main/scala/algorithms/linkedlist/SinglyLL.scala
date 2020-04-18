@@ -16,12 +16,10 @@ case class SinglyLL[T]() {
       }
     }
   }
-
   def prepend(data: T): Unit = {
     val tempHead: Node[T] = new Node[T](data, head);
     head = tempHead;
   }
-
   def insertAfter(prevNode: Node[T], data: T) = {
     var newNode = new Node(data, null)
     if (prevNode == null)
@@ -31,7 +29,6 @@ case class SinglyLL[T]() {
       prevNode.next = newNode
     }
   }
-
   def size: Int = {
     def loop(node: Node[T], acc: Int): Int = {
       if (node.next == null) acc else loop(node.next, acc + 1)
@@ -39,7 +36,6 @@ case class SinglyLL[T]() {
 
     if (head == null) 0 else loop(head, 1)
   }
-
   def printLinkedList = {
     def loop(node: Node[T], accString: String): String = {
       if (node == null) accString
@@ -68,7 +64,6 @@ case class SinglyLL[T]() {
     else loop(head, head.next)
 
   }
-
   def deleteLastNode() = {
     if (head == null) {
       println("delete last node of empty list")
@@ -83,7 +78,6 @@ case class SinglyLL[T]() {
       loop(head)
     }
   }
-
   def deleteFirstNode() = {
     if (head == null) {
       println("deleting first node of empty linked list")
@@ -91,7 +85,6 @@ case class SinglyLL[T]() {
       head = head.next
     }
   }
-
   def deleteAtIndex(index: Int) = {
     if (index < 0) println("index must be greater than zero") else {
       if (head == null) {
@@ -114,7 +107,6 @@ case class SinglyLL[T]() {
       }
     }
   }
-
   def getDataByIndex(index: Int) = {
     if (index < 0) println("index must be greater than zero") else {
       if (head == null) {
@@ -133,8 +125,21 @@ case class SinglyLL[T]() {
       }
     }
   }
+  def searchItem(data: T): Boolean = {
+    if (head == null) {
+      println("search on empty linked list")
+      false
+    } else {
+      def loop(node: Node[T]): Boolean = {
+        if (node == null) false
+        else if (node.data == data) true
+        else loop(node.next)
+      }
 
-    def reverse = ???
+      loop(head)
+    }
+  }
+  def reverse = ???
 
 
 }
@@ -154,6 +159,9 @@ object SinglyLinkedListTest extends App {
 
   list.printLinkedList
   println(list.getDataByIndex(6))
+  println(list.getDataByIndex(4))
+  if (list.searchItem(7)) println("search positive")
+  if (list.searchItem(70)) println("search positive")
 
 
 }

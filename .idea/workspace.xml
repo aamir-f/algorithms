@@ -2,48 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5152287-336b-4cad-8cdf-be5a8a1765c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/algorithms/math/XoRSwap.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arrays/ArrayRotation1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arrays/Utilities.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/SinglyLL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/recursion/TowerHonio.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/virtualfs/Boot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/virtualfs/Files/DirEntry.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/virtualfs/Files/Directory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/virtualfs/State.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/virtualfs/commands/Command.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/virtualfs/commands/UnknownCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/algorithms/linkedlist/CircularSinglyLL.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/algorithms/linkedlist/CircularSinglyLL.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/algorithms/linkedlist/Node.scala" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/algorithms/linkedlist/SinglyLL.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/algorithms/linkedlist/SinglyLL.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/algorithms/linkedlist/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/algorithms/strings/ws.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/algorithms/strings/ws.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/arrays/Sum2ItemsList$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/arrays/Sum2ItemsList$delayedInit$body.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/arrays/Sum2ItemsList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/linkedlist/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/linkedlist/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/linkedlist/SinglyLL$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/linkedlist/SinglyLL$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/algorithms/math/NthFibonacci.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/algorithms/math/NthFibonacci.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/linkedlist/SinglyLL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/linkedlist/SinglyLL.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/linkedlist/SinglyLinkedListTest$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/linkedlist/SinglyLinkedListTest$.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/linkedlist/SinglyLinkedListTest$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/linkedlist/SinglyLinkedListTest$delayedInit$body.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/linkedlist/Test$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/linkedlist/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/strings/ws.sc" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/strings/ws.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/arrays/ArrayRotation1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/arrays/Utilities.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/linkedlist/LinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/linkedlist/LinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/recursion/TowerOfHanoi$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/recursion/TowerOfHanoi$delayedInit$body.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/recursion/TowerOfHanoi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/virtualfs/Boot$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/virtualfs/Boot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/virtualfs/Files/DirEntry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/virtualfs/Files/Directory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/virtualfs/State.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/virtualfs/commands/Command.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/virtualfs/commands/UnknownCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/math/NthFibonacci1$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/math/NthFibonacci1$.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,13 +84,13 @@
       <recent name="E:\code\ScalaKash\src\main\scala\algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SinglyLinkedListTest">
-    <configuration name="CountFrequencies1" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.arrays.CountFrequencies1" />
+  <component name="RunManager" selected="Application.NthFibonacci1">
+    <configuration name="DecimalToBinary" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.math.DecimalToBinary" />
       <module name="ScalaKash" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.arrays.*" />
+          <option name="PATTERN" value="algorithms.math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,19 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList" />
-      <module name="ScalaKash" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SinglyLinkedListTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.linkedlist.SinglyLinkedListTest" />
+    <configuration name="NthFibonacci1" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.math.NthFibonacci1" />
       <module name="ScalaKash" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.linkedlist.*" />
+          <option name="PATTERN" value="algorithms.math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortRunTime1" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.runtimecomplexity.SortRunTime1" />
+    <configuration name="NthFibonacci2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.math.NthFibonacci2" />
       <module name="ScalaKash" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.runtimecomplexity.*" />
+          <option name="PATTERN" value="algorithms.math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,12 +124,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sum2ItemsList" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.arrays.Sum2ItemsList" />
+    <configuration name="Swap1" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.math.Swap1" />
       <module name="ScalaKash" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.arrays.*" />
+          <option name="PATTERN" value="algorithms.math.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Swap2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.math.Swap2" />
+      <module name="ScalaKash" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -227,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SinglyLinkedListTest" />
-        <item itemvalue="Application.LinkedList" />
-        <item itemvalue="Application.Sum2ItemsList" />
-        <item itemvalue="Application.CountFrequencies1" />
-        <item itemvalue="Application.SortRunTime1" />
+        <item itemvalue="Application.NthFibonacci1" />
+        <item itemvalue="Application.NthFibonacci2" />
+        <item itemvalue="Application.Swap2" />
+        <item itemvalue="Application.Swap1" />
+        <item itemvalue="Application.DecimalToBinary" />
       </list>
     </recent_temporary>
   </component>
@@ -323,36 +295,36 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1582223058785" />
-    <state width="1880" height="271" key="GridCell.Tab.0.bottom" timestamp="1587234345279">
+    <state width="1880" height="312" key="GridCell.Tab.0.bottom" timestamp="1587238653039">
       <screen x="0" y="23" width="1920" height="975" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650780" />
     <state width="1640" height="428" key="GridCell.Tab.0.bottom/0.23.1680.949@0.23.1680.949" timestamp="1586973403995" />
-    <state width="1880" height="271" key="GridCell.Tab.0.bottom/0.23.1920.975@0.23.1920.975" timestamp="1587234345279" />
+    <state width="1880" height="312" key="GridCell.Tab.0.bottom/0.23.1920.975@0.23.1920.975" timestamp="1587238653039" />
     <state width="1880" height="386" key="GridCell.Tab.0.bottom/0.23.1920.979@0.23.1920.979" timestamp="1587231939402" />
     <state width="1807" height="307" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="1880" height="271" key="GridCell.Tab.0.center" timestamp="1587234345278">
+    <state width="1880" height="312" key="GridCell.Tab.0.center" timestamp="1587238653038">
       <screen x="0" y="23" width="1920" height="975" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650779" />
     <state width="1640" height="428" key="GridCell.Tab.0.center/0.23.1680.949@0.23.1680.949" timestamp="1586973403995" />
-    <state width="1880" height="271" key="GridCell.Tab.0.center/0.23.1920.975@0.23.1920.975" timestamp="1587234345278" />
+    <state width="1880" height="312" key="GridCell.Tab.0.center/0.23.1920.975@0.23.1920.975" timestamp="1587238653038" />
     <state width="1880" height="386" key="GridCell.Tab.0.center/0.23.1920.979@0.23.1920.979" timestamp="1587231939401" />
     <state width="1807" height="307" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="1880" height="271" key="GridCell.Tab.0.left" timestamp="1587234345278">
+    <state width="1880" height="312" key="GridCell.Tab.0.left" timestamp="1587238653038">
       <screen x="0" y="23" width="1920" height="975" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650778" />
     <state width="1640" height="428" key="GridCell.Tab.0.left/0.23.1680.949@0.23.1680.949" timestamp="1586973403994" />
-    <state width="1880" height="271" key="GridCell.Tab.0.left/0.23.1920.975@0.23.1920.975" timestamp="1587234345278" />
+    <state width="1880" height="312" key="GridCell.Tab.0.left/0.23.1920.975@0.23.1920.975" timestamp="1587238653038" />
     <state width="1880" height="386" key="GridCell.Tab.0.left/0.23.1920.979@0.23.1920.979" timestamp="1587231939400" />
     <state width="1807" height="307" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="1880" height="271" key="GridCell.Tab.0.right" timestamp="1587234345279">
+    <state width="1880" height="312" key="GridCell.Tab.0.right" timestamp="1587238653039">
       <screen x="0" y="23" width="1920" height="975" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650779" />
     <state width="1640" height="428" key="GridCell.Tab.0.right/0.23.1680.949@0.23.1680.949" timestamp="1586973403995" />
-    <state width="1880" height="271" key="GridCell.Tab.0.right/0.23.1920.975@0.23.1920.975" timestamp="1587234345279" />
+    <state width="1880" height="312" key="GridCell.Tab.0.right/0.23.1920.975@0.23.1920.975" timestamp="1587238653039" />
     <state width="1880" height="386" key="GridCell.Tab.0.right/0.23.1920.979@0.23.1920.979" timestamp="1587231939402" />
     <state width="1807" height="307" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
     <state width="1880" height="278" key="GridCell.Tab.1.bottom" timestamp="1587233269409">
@@ -383,6 +355,10 @@
     <state width="1850" height="358" key="GridCell.Tab.1.right/0.23.1680.949@0.23.1680.949" timestamp="1586093241622" />
     <state width="1880" height="278" key="GridCell.Tab.1.right/0.23.1920.975@0.23.1920.975" timestamp="1587233269408" />
     <state width="1880" height="386" key="GridCell.Tab.1.right/0.23.1920.979@0.23.1920.979" timestamp="1587231939403" />
+    <state x="672" y="228" key="RollbackChangesDialog" timestamp="1587238077253">
+      <screen x="0" y="23" width="1920" height="975" />
+    </state>
+    <state x="672" y="228" key="RollbackChangesDialog/0.23.1920.975@0.23.1920.975" timestamp="1587238077253" />
     <state x="136" y="150" key="SettingsEditor" timestamp="1586114438592">
       <screen x="0" y="23" width="1920" height="979" />
     </state>
