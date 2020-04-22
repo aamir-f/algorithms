@@ -2,14 +2,84 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5152287-336b-4cad-8cdf-be5a8a1765c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/algorithms/math/XoRSwap.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/LeftRotateArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/Sum2Elemenets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/notes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linkedlist/notes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linkedlist/singly/DetectCycles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linkedlist/singly/InsertDelSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linkedlist/singly/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linkedlist/singly/ReverseLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strings/Sum2LargeStr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/algorithms/linkedlist/SinglyLL.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/algorithms/linkedlist/SinglyLL.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/algorithms/math/NthFibonacci.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/algorithms/math/NthFibonacci.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/linkedlist/SinglyLL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/linkedlist/SinglyLL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/linkedlist/SinglyLinkedListTest$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/linkedlist/SinglyLinkedListTest$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/linkedlist/SinglyLinkedListTest$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/linkedlist/SinglyLinkedListTest$delayedInit$body.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/algorithms/JavaProgram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/algorithms/arrays/ArrayRotation.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/algorithms/arrays/CountFrequencies.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/algorithms/arrays/FindDuplicatesInArray.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/algorithms/arrays/Notes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/algorithms/arrays/Sum2ItemsList.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/algorithms/arrays/Utilities.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/algorithms/leetcode/LinkedListImpl.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/algorithms/leetcode/TwoSum.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/algorithms/linkedlist/CircularSinglyLL.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/algorithms/linkedlist/SinglyLL.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/algorithms/linkedlist/notes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/algorithms/patternmatching/RabinKarpAlgorithm.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/CountElementFrequency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/LinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/JavaProgram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/arrays/ArrayRotation1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/arrays/ArrayRotation1$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/arrays/ArrayRotation1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/arrays/ArrayRotation2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/arrays/ArrayRotation2$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/arrays/ArrayRotation2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/arrays/ArrayRotation3$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/arrays/ArrayRotation3$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/arrays/ArrayRotation3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/arrays/CountFrequencies1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/arrays/CountFrequencies1$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/arrays/CountFrequencies1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/arrays/Method1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/arrays/Method1$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/arrays/Method1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/arrays/Notes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/arrays/Sum2ItemsList1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/arrays/Sum2ItemsList1$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/arrays/Sum2ItemsList1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/arrays/Sum2ItemsList2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/arrays/Sum2ItemsList2$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/arrays/Sum2ItemsList2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/arrays/Utilities$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/arrays/Utilities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/leetcode/LinkedList$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/leetcode/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/leetcode/Node$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/leetcode/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/leetcode/SinglyLinkedListTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/leetcode/SinglyLinkedListTest$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/leetcode/SinglyLinkedListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/leetcode/TwoSum1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/leetcode/TwoSum1$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/leetcode/TwoSum1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/leetcode/TwoSum2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/leetcode/TwoSum2$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/leetcode/TwoSum2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/linkedlist/CircularSinglyLL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/linkedlist/CircularSinglyLLTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/linkedlist/CircularSinglyLLTest$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/linkedlist/CircularSinglyLLTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/linkedlist/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/linkedlist/SinglyLL$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/linkedlist/SinglyLL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/linkedlist/SinglyLinkedListTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/linkedlist/SinglyLinkedListTest$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/linkedlist/SinglyLinkedListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/linkedlist/notes.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/math/NthFibonacci1$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/math/NthFibonacci1$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/math/NthFibonacci2$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/math/NthFibonacci2$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/math/NthFibonacci2$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/math/NthFibonacci2$delayedInit$body.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,19 +148,22 @@
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/scala/algorithms/learnbay" />
       <recent name="E:\code\ScalaKash\src\main\scala\algorithms\arrays" />
       <recent name="E:\code\ScalaKash\src\main\scala\algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NthFibonacci1">
-    <configuration name="DecimalToBinary" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.math.DecimalToBinary" />
+  <component name="RunManager" selected="Application.ReverseLinkedList">
+    <configuration name="LeftRotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.LeftRotateArray" />
       <module name="ScalaKash" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.math.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +197,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Swap1" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.math.Swap1" />
+    <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.singly.ReverseLinkedList" />
       <module name="ScalaKash" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.math.*" />
+          <option name="PATTERN" value="linkedlist.singly.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +210,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Swap2" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.math.Swap2" />
+    <configuration name="SinglyLinkedListTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.linkedlist.SinglyLinkedListTest" />
       <module name="ScalaKash" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.math.*" />
+          <option name="PATTERN" value="algorithms.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -199,11 +272,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseLinkedList" />
+        <item itemvalue="Application.LeftRotateArray" />
+        <item itemvalue="Application.SinglyLinkedListTest" />
         <item itemvalue="Application.NthFibonacci1" />
         <item itemvalue="Application.NthFibonacci2" />
-        <item itemvalue="Application.Swap2" />
-        <item itemvalue="Application.Swap1" />
-        <item itemvalue="Application.DecimalToBinary" />
       </list>
     </recent_temporary>
   </component>
@@ -291,67 +364,83 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="834" y="444" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1582214819009" />
+    <state x="455" y="442" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1587480617526">
+      <screen x="0" y="23" width="1920" height="975" />
+    </state>
+    <state x="455" y="442" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1920.975@0.23.1920.975" timestamp="1587480617526" />
+    <state x="690" y="402" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1587480620027">
+      <screen x="0" y="23" width="1920" height="975" />
+    </state>
+    <state x="690" y="402" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1920.975@0.23.1920.975" timestamp="1587480620027" />
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1582223058785">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1582223058785" />
-    <state width="1880" height="312" key="GridCell.Tab.0.bottom" timestamp="1587238653039">
-      <screen x="0" y="23" width="1920" height="975" />
+    <state width="1640" height="311" key="GridCell.Tab.0.bottom" timestamp="1587568053702">
+      <screen x="0" y="23" width="1680" height="945" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650780" />
+    <state width="1640" height="311" key="GridCell.Tab.0.bottom/0.23.1680.945@0.23.1680.945" timestamp="1587568053702" />
     <state width="1640" height="428" key="GridCell.Tab.0.bottom/0.23.1680.949@0.23.1680.949" timestamp="1586973403995" />
-    <state width="1880" height="312" key="GridCell.Tab.0.bottom/0.23.1920.975@0.23.1920.975" timestamp="1587238653039" />
+    <state width="1880" height="311" key="GridCell.Tab.0.bottom/0.23.1920.975@0.23.1920.975" timestamp="1587495190475" />
     <state width="1880" height="386" key="GridCell.Tab.0.bottom/0.23.1920.979@0.23.1920.979" timestamp="1587231939402" />
     <state width="1807" height="307" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="1880" height="312" key="GridCell.Tab.0.center" timestamp="1587238653038">
-      <screen x="0" y="23" width="1920" height="975" />
+    <state width="1640" height="311" key="GridCell.Tab.0.center" timestamp="1587568053701">
+      <screen x="0" y="23" width="1680" height="945" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650779" />
+    <state width="1640" height="311" key="GridCell.Tab.0.center/0.23.1680.945@0.23.1680.945" timestamp="1587568053701" />
     <state width="1640" height="428" key="GridCell.Tab.0.center/0.23.1680.949@0.23.1680.949" timestamp="1586973403995" />
-    <state width="1880" height="312" key="GridCell.Tab.0.center/0.23.1920.975@0.23.1920.975" timestamp="1587238653038" />
+    <state width="1880" height="311" key="GridCell.Tab.0.center/0.23.1920.975@0.23.1920.975" timestamp="1587495190474" />
     <state width="1880" height="386" key="GridCell.Tab.0.center/0.23.1920.979@0.23.1920.979" timestamp="1587231939401" />
     <state width="1807" height="307" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="1880" height="312" key="GridCell.Tab.0.left" timestamp="1587238653038">
-      <screen x="0" y="23" width="1920" height="975" />
+    <state width="1640" height="311" key="GridCell.Tab.0.left" timestamp="1587568053700">
+      <screen x="0" y="23" width="1680" height="945" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650778" />
+    <state width="1640" height="311" key="GridCell.Tab.0.left/0.23.1680.945@0.23.1680.945" timestamp="1587568053700" />
     <state width="1640" height="428" key="GridCell.Tab.0.left/0.23.1680.949@0.23.1680.949" timestamp="1586973403994" />
-    <state width="1880" height="312" key="GridCell.Tab.0.left/0.23.1920.975@0.23.1920.975" timestamp="1587238653038" />
+    <state width="1880" height="311" key="GridCell.Tab.0.left/0.23.1920.975@0.23.1920.975" timestamp="1587495190474" />
     <state width="1880" height="386" key="GridCell.Tab.0.left/0.23.1920.979@0.23.1920.979" timestamp="1587231939400" />
     <state width="1807" height="307" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="1880" height="312" key="GridCell.Tab.0.right" timestamp="1587238653039">
-      <screen x="0" y="23" width="1920" height="975" />
+    <state width="1640" height="311" key="GridCell.Tab.0.right" timestamp="1587568053702">
+      <screen x="0" y="23" width="1680" height="945" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650779" />
+    <state width="1640" height="311" key="GridCell.Tab.0.right/0.23.1680.945@0.23.1680.945" timestamp="1587568053702" />
     <state width="1640" height="428" key="GridCell.Tab.0.right/0.23.1680.949@0.23.1680.949" timestamp="1586973403995" />
-    <state width="1880" height="312" key="GridCell.Tab.0.right/0.23.1920.975@0.23.1920.975" timestamp="1587238653039" />
+    <state width="1880" height="311" key="GridCell.Tab.0.right/0.23.1920.975@0.23.1920.975" timestamp="1587495190475" />
     <state width="1880" height="386" key="GridCell.Tab.0.right/0.23.1920.979@0.23.1920.979" timestamp="1587231939402" />
     <state width="1807" height="307" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="1880" height="278" key="GridCell.Tab.1.bottom" timestamp="1587233269409">
-      <screen x="0" y="23" width="1920" height="975" />
+    <state width="1640" height="389" key="GridCell.Tab.1.bottom" timestamp="1587567930132">
+      <screen x="0" y="23" width="1680" height="945" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1585739432816" />
+    <state width="1640" height="389" key="GridCell.Tab.1.bottom/0.23.1680.945@0.23.1680.945" timestamp="1587567930132" />
     <state width="1850" height="358" key="GridCell.Tab.1.bottom/0.23.1680.949@0.23.1680.949" timestamp="1586093241623" />
     <state width="1880" height="278" key="GridCell.Tab.1.bottom/0.23.1920.975@0.23.1920.975" timestamp="1587233269409" />
     <state width="1880" height="386" key="GridCell.Tab.1.bottom/0.23.1920.979@0.23.1920.979" timestamp="1587231939403" />
-    <state width="1880" height="278" key="GridCell.Tab.1.center" timestamp="1587233269408">
-      <screen x="0" y="23" width="1920" height="975" />
+    <state width="1640" height="389" key="GridCell.Tab.1.center" timestamp="1587567930132">
+      <screen x="0" y="23" width="1680" height="945" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1585739432815" />
+    <state width="1640" height="389" key="GridCell.Tab.1.center/0.23.1680.945@0.23.1680.945" timestamp="1587567930132" />
     <state width="1850" height="358" key="GridCell.Tab.1.center/0.23.1680.949@0.23.1680.949" timestamp="1586093241622" />
     <state width="1880" height="278" key="GridCell.Tab.1.center/0.23.1920.975@0.23.1920.975" timestamp="1587233269408" />
     <state width="1880" height="386" key="GridCell.Tab.1.center/0.23.1920.979@0.23.1920.979" timestamp="1587231939403" />
-    <state width="1880" height="278" key="GridCell.Tab.1.left" timestamp="1587233269408">
-      <screen x="0" y="23" width="1920" height="975" />
+    <state width="1640" height="389" key="GridCell.Tab.1.left" timestamp="1587567930131">
+      <screen x="0" y="23" width="1680" height="945" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1585739432815" />
+    <state width="1640" height="389" key="GridCell.Tab.1.left/0.23.1680.945@0.23.1680.945" timestamp="1587567930131" />
     <state width="1850" height="358" key="GridCell.Tab.1.left/0.23.1680.949@0.23.1680.949" timestamp="1586093241622" />
     <state width="1880" height="278" key="GridCell.Tab.1.left/0.23.1920.975@0.23.1920.975" timestamp="1587233269408" />
     <state width="1880" height="386" key="GridCell.Tab.1.left/0.23.1920.979@0.23.1920.979" timestamp="1587231939402" />
-    <state width="1880" height="278" key="GridCell.Tab.1.right" timestamp="1587233269408">
-      <screen x="0" y="23" width="1920" height="975" />
+    <state width="1640" height="389" key="GridCell.Tab.1.right" timestamp="1587567930132">
+      <screen x="0" y="23" width="1680" height="945" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1585739432815" />
+    <state width="1640" height="389" key="GridCell.Tab.1.right/0.23.1680.945@0.23.1680.945" timestamp="1587567930132" />
     <state width="1850" height="358" key="GridCell.Tab.1.right/0.23.1680.949@0.23.1680.949" timestamp="1586093241622" />
     <state width="1880" height="278" key="GridCell.Tab.1.right/0.23.1920.975@0.23.1920.975" timestamp="1587233269408" />
     <state width="1880" height="386" key="GridCell.Tab.1.right/0.23.1920.979@0.23.1920.979" timestamp="1587231939403" />
@@ -374,9 +463,10 @@
       <screen x="0" y="23" width="1920" height="979" />
     </state>
     <state x="100" y="153" width="1480" height="749" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1920.979@0.23.1920.979" timestamp="1586109608517" />
-    <state x="528" y="372" key="com.intellij.ide.util.TipDialog" timestamp="1587106300571">
-      <screen x="0" y="23" width="1920" height="979" />
+    <state x="462" y="360" key="com.intellij.ide.util.TipDialog" timestamp="1587363873576">
+      <screen x="0" y="23" width="1680" height="945" />
     </state>
+    <state x="462" y="360" key="com.intellij.ide.util.TipDialog/0.23.1680.945@0.23.1680.945" timestamp="1587363873576" />
     <state x="528" y="342" key="com.intellij.ide.util.TipDialog/0.23.1680.949@0.23.1680.949" timestamp="1587024201912" />
     <state x="603" y="351" key="com.intellij.ide.util.TipDialog/0.23.1920.977@0.23.1920.977" timestamp="1584592782947" />
     <state x="528" y="372" key="com.intellij.ide.util.TipDialog/0.23.1920.979@0.23.1920.979" timestamp="1587106300571" />
