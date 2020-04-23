@@ -1,5 +1,7 @@
 package linkedlist.singly;
 
+import java.util.Stack;
+
 class Node {
     int data;
     Node next;
@@ -75,7 +77,70 @@ public class LinkedList {
     public int search(int index) {
         return 1;
     }
+
     public void insertAfterNode(Node prev_node, int new_data) {
 
+    }
+
+    //TC: O(n)
+    public Boolean isPalindromeUsingStack() {
+        boolean isPalindrome = true;
+        Stack<Integer> stack = new Stack<>();
+        Node temp = head;
+        while (temp != null) {
+            stack.push(temp.data);
+            temp = temp.next;
+        }
+        temp = head;
+        while (temp != null) {
+            if (temp.data != stack.pop()) {
+                isPalindrome = false;
+                break;
+            }
+            temp = temp.next;
+        }
+
+        return isPalindrome;
+    }
+
+    public int getMiddleNodeUsingCount() {
+        int index = 0;
+        int count = getNodeCount();
+        int con = count / 2;
+        Node temp = head;
+        while (index < con) {
+            temp = temp.next;
+            index++;
+        }
+        return temp.data;
+    }
+
+    public void getMiddleNodeTwoPointer() {
+        Node ptr1 = head;
+        Node ptr2 = head;
+        while(ptr2 != null && ptr2.next != null) {
+            ptr1 = ptr1.next;
+            ptr2 = ptr2.next.next;
+        }
+        System.out.println(ptr1.data);
+    }
+
+    public boolean isEmpty() {
+        return head == null;
+    }
+
+    public int getNodeCountRecursive(Node head) {
+        if (head == null) return 0;
+        else return 1 + getNodeCountRecursive(head.next);
+    }
+
+    public int getNodeCount() {
+            int count = 0;
+            Node temp = head;
+            while (temp != null) {
+                count++;
+                temp = temp.next;
+            }
+            return count;
     }
 }
