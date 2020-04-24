@@ -14,8 +14,9 @@ public class FindMiddleNode {
         ll.head.next.next.next.next = new Node(5);
         ll.head.next.next.next.next.next = new Node(6);
 
-        System.out.println(ll.getMiddleNodeUsingCount());
+        ll.getMiddleNodeUsingCount();
         ll.getMiddleNodeTwoPointer();
+        ll.getMiddleUsingOddCheck();
 
     }
 }

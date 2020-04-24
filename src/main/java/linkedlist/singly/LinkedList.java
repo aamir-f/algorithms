@@ -103,7 +103,7 @@ public class LinkedList {
         return isPalindrome;
     }
 
-    public int getMiddleNodeUsingCount() {
+    public void getMiddleNodeUsingCount() {
         int index = 0;
         int count = getNodeCount();
         int con = count / 2;
@@ -112,17 +112,34 @@ public class LinkedList {
             temp = temp.next;
             index++;
         }
-        return temp.data;
+        System.out.println(temp.data);
     }
 
     public void getMiddleNodeTwoPointer() {
         Node ptr1 = head;
         Node ptr2 = head;
-        while(ptr2 != null && ptr2.next != null) {
+        while (ptr2 != null && ptr2.next != null) {
             ptr1 = ptr1.next;
             ptr2 = ptr2.next.next;
         }
         System.out.println(ptr1.data);
+    }
+
+    public void getMiddleUsingOddCheck() {
+        int length = 1;
+        Node temp = head;
+        Node middle = temp;
+        Node current = temp;
+        while (current.next != null) {
+            int oddCheck = length & 1;
+            if (oddCheck == 1)
+                middle = middle.next;
+
+            length++;
+            current = current.next;
+        }
+        System.out.println(middle.data);
+
     }
 
     public boolean isEmpty() {
@@ -135,12 +152,12 @@ public class LinkedList {
     }
 
     public int getNodeCount() {
-            int count = 0;
-            Node temp = head;
-            while (temp != null) {
-                count++;
-                temp = temp.next;
-            }
-            return count;
+        int count = 0;
+        Node temp = head;
+        while (temp != null) {
+            count++;
+            temp = temp.next;
+        }
+        return count;
     }
 }
