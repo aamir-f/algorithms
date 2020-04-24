@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5152287-336b-4cad-8cdf-be5a8a1765c8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/math/Swap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/singly/FindMiddleNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/singly/FindMiddleNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/singly/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/singly/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/linkedlist/singly/FindMiddleNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/linkedlist/singly/FindMiddleNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/linkedlist/singly/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/linkedlist/singly/LinkedList.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +82,7 @@
       <recent name="E:\code\ScalaKash\src\main\scala\algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindMiddleNode">
+  <component name="RunManager" selected="Application.Swap">
     <configuration name="EvenOdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="math.EvenOdd" />
       <module name="ScalaKash" />
@@ -111,19 +109,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeftRotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.LeftRotateArray" />
-      <module name="ScalaKash" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linkedlist.singly.Palindrome" />
       <module name="ScalaKash" />
@@ -137,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.singly.ReverseLinkedList" />
+    <configuration name="Swap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="math.Swap" />
       <module name="ScalaKash" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedlist.singly.*" />
+          <option name="PATTERN" value="math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,13 +182,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scala REPL" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="ScalaKash" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="javaOptions" value="-Djline.terminal=NONE" />
+      <option name="myConsoleArgs" value="" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Swap" />
+        <item itemvalue="Scala REPL.Scala REPL" />
         <item itemvalue="Application.FindMiddleNode" />
         <item itemvalue="Application.EvenOdd" />
         <item itemvalue="Application.Palindrome" />
-        <item itemvalue="Application.ReverseLinkedList" />
-        <item itemvalue="Application.LeftRotateArray" />
       </list>
     </recent_temporary>
   </component>
@@ -303,38 +298,38 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1582223058785" />
-    <state width="1640" height="310" key="GridCell.Tab.0.bottom" timestamp="1587669148644">
+    <state width="1640" height="310" key="GridCell.Tab.0.bottom" timestamp="1587742097216">
       <screen x="0" y="23" width="1680" height="945" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650780" />
-    <state width="1640" height="310" key="GridCell.Tab.0.bottom/0.23.1680.945@0.23.1680.945" timestamp="1587669148644" />
+    <state width="1640" height="310" key="GridCell.Tab.0.bottom/0.23.1680.945@0.23.1680.945" timestamp="1587742097216" />
     <state width="1640" height="428" key="GridCell.Tab.0.bottom/0.23.1680.949@0.23.1680.949" timestamp="1586973403995" />
     <state width="1880" height="323" key="GridCell.Tab.0.bottom/0.23.1920.975@0.23.1920.975" timestamp="1587664541383" />
     <state width="1880" height="386" key="GridCell.Tab.0.bottom/0.23.1920.979@0.23.1920.979" timestamp="1587231939402" />
     <state width="1807" height="307" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="1640" height="310" key="GridCell.Tab.0.center" timestamp="1587669148643">
+    <state width="1640" height="310" key="GridCell.Tab.0.center" timestamp="1587742097215">
       <screen x="0" y="23" width="1680" height="945" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650779" />
-    <state width="1640" height="310" key="GridCell.Tab.0.center/0.23.1680.945@0.23.1680.945" timestamp="1587669148643" />
+    <state width="1640" height="310" key="GridCell.Tab.0.center/0.23.1680.945@0.23.1680.945" timestamp="1587742097215" />
     <state width="1640" height="428" key="GridCell.Tab.0.center/0.23.1680.949@0.23.1680.949" timestamp="1586973403995" />
     <state width="1880" height="323" key="GridCell.Tab.0.center/0.23.1920.975@0.23.1920.975" timestamp="1587664541382" />
     <state width="1880" height="386" key="GridCell.Tab.0.center/0.23.1920.979@0.23.1920.979" timestamp="1587231939401" />
     <state width="1807" height="307" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="1640" height="310" key="GridCell.Tab.0.left" timestamp="1587669148643">
+    <state width="1640" height="310" key="GridCell.Tab.0.left" timestamp="1587742097214">
       <screen x="0" y="23" width="1680" height="945" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650778" />
-    <state width="1640" height="310" key="GridCell.Tab.0.left/0.23.1680.945@0.23.1680.945" timestamp="1587669148643" />
+    <state width="1640" height="310" key="GridCell.Tab.0.left/0.23.1680.945@0.23.1680.945" timestamp="1587742097214" />
     <state width="1640" height="428" key="GridCell.Tab.0.left/0.23.1680.949@0.23.1680.949" timestamp="1586973403994" />
     <state width="1880" height="323" key="GridCell.Tab.0.left/0.23.1920.975@0.23.1920.975" timestamp="1587664541381" />
     <state width="1880" height="386" key="GridCell.Tab.0.left/0.23.1920.979@0.23.1920.979" timestamp="1587231939400" />
     <state width="1807" height="307" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="1640" height="310" key="GridCell.Tab.0.right" timestamp="1587669148644">
+    <state width="1640" height="310" key="GridCell.Tab.0.right" timestamp="1587742097215">
       <screen x="0" y="23" width="1680" height="945" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650779" />
-    <state width="1640" height="310" key="GridCell.Tab.0.right/0.23.1680.945@0.23.1680.945" timestamp="1587669148644" />
+    <state width="1640" height="310" key="GridCell.Tab.0.right/0.23.1680.945@0.23.1680.945" timestamp="1587742097215" />
     <state width="1640" height="428" key="GridCell.Tab.0.right/0.23.1680.949@0.23.1680.949" timestamp="1586973403995" />
     <state width="1880" height="323" key="GridCell.Tab.0.right/0.23.1920.975@0.23.1920.975" timestamp="1587664541383" />
     <state width="1880" height="386" key="GridCell.Tab.0.right/0.23.1920.979@0.23.1920.979" timestamp="1587231939402" />
@@ -412,9 +407,10 @@
       <screen x="0" y="23" width="1920" height="979" />
     </state>
     <state x="499" y="256" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1920.979@0.23.1920.979" timestamp="1586088671531" />
-    <state x="518" y="106" width="774" height="783" key="find.popup" timestamp="1586966572345">
-      <screen x="0" y="23" width="1680" height="949" />
+    <state x="518" y="106" width="774" height="780" key="find.popup" timestamp="1587742003683">
+      <screen x="0" y="23" width="1680" height="945" />
     </state>
+    <state x="518" y="106" width="774" height="780" key="find.popup/0.23.1680.945@0.23.1680.945" timestamp="1587742003683" />
     <state x="518" y="106" width="774" height="783" key="find.popup/0.23.1680.949@0.23.1680.949" timestamp="1586966572345" />
     <state x="592" y="109" width="884" height="807" key="find.popup/0.23.1920.979@0.23.1920.979" timestamp="1585984072872" />
     <state x="638" y="119" width="710" height="867" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1582740150956" />
