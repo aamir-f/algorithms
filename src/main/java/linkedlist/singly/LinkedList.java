@@ -1,5 +1,6 @@
 package linkedlist.singly;
 
+import java.util.HashSet;
 import java.util.Stack;
 
 class Node {
@@ -47,6 +48,14 @@ public class LinkedList {
     }
 
     public Boolean hashingCycleDetection() {
+        Node current = head;
+        java.util.HashSet<Node> s = new HashSet<Node>();
+
+        while(current != null) {
+            if(s.contains(current)) return true;
+            s.add(current);
+            current = current.next;
+        }
         return false;
     }
 
