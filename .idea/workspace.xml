@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5152287-336b-4cad-8cdf-be5a8a1765c8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/singly/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/singly/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/algorithms/learnbay/learnbaytracking.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learnbay/learnbaytracking.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -300,13 +301,15 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="834" y="444" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1582214819009" />
-    <state x="455" y="442" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1587480617526">
-      <screen x="0" y="23" width="1920" height="975" />
+    <state x="398" y="429" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1587818035947">
+      <screen x="0" y="23" width="1680" height="945" />
     </state>
+    <state x="398" y="429" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1680.945@0.23.1680.945" timestamp="1587818035947" />
     <state x="455" y="442" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1920.975@0.23.1920.975" timestamp="1587480617526" />
-    <state x="690" y="402" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1587480620027">
-      <screen x="0" y="23" width="1920" height="975" />
+    <state x="604" y="390" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1587818037720">
+      <screen x="0" y="23" width="1680" height="945" />
     </state>
+    <state x="604" y="390" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1680.945@0.23.1680.945" timestamp="1587818037720" />
     <state x="690" y="402" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1920.975@0.23.1920.975" timestamp="1587480620027" />
     <state x="100" y="123" width="1480" height="745" key="DiffContextDialog" timestamp="1587805068102">
       <screen x="0" y="23" width="1680" height="945" />
@@ -472,17 +475,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/linkedlist/singly/Palindrome.java</url>
-          <line>124</line>
+          <line>125</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/linkedlist/singly/Palindrome.java</url>
-          <line>125</line>
+          <line>126</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/linkedlist/singly/Palindrome.java</url>
-          <line>122</line>
+          <line>123</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
       </breakpoints>
