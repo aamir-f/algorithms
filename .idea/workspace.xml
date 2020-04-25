@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b5152287-336b-4cad-8cdf-be5a8a1765c8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arrays/LeftRotateArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/LeftRotateArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learnbay/learnbaytracking.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learnbay/learnbaytracking.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/learnbay/learnbaytracking.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/learnbay/learnbaytracking.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arrays/CountElementFrequency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/CountElementFrequency.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +85,7 @@
       <recent name="E:\code\ScalaKash\src\main\scala\algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LeftRotateArray">
+  <component name="RunManager" selected="Application.CountElementFrequency">
     <configuration name="ArrayPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.ArrayPalindrome" />
       <module name="ScalaKash" />
@@ -114,6 +112,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CountElementFrequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.CountElementFrequency" />
+      <module name="ScalaKash" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LeftRotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.LeftRotateArray" />
       <module name="ScalaKash" />
@@ -129,19 +140,6 @@
     </configuration>
     <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linkedlist.singly.Palindrome" />
-      <module name="ScalaKash" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedlist.singly.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.singly.test" />
       <module name="ScalaKash" />
       <extension name="coverage">
         <pattern>
@@ -202,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountElementFrequency" />
         <item itemvalue="Application.LeftRotateArray" />
         <item itemvalue="Application.ArrayPalindrome" />
         <item itemvalue="Application.ArrayZigZag" />
         <item itemvalue="Application.Palindrome" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -324,38 +322,38 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1582223058785" />
-    <state width="1640" height="223" key="GridCell.Tab.0.bottom" timestamp="1587840537505">
+    <state width="1640" height="274" key="GridCell.Tab.0.bottom" timestamp="1587841834543">
       <screen x="0" y="23" width="1680" height="945" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650780" />
-    <state width="1640" height="223" key="GridCell.Tab.0.bottom/0.23.1680.945@0.23.1680.945" timestamp="1587840537505" />
+    <state width="1640" height="274" key="GridCell.Tab.0.bottom/0.23.1680.945@0.23.1680.945" timestamp="1587841834543" />
     <state width="1640" height="428" key="GridCell.Tab.0.bottom/0.23.1680.949@0.23.1680.949" timestamp="1586973403995" />
     <state width="1880" height="323" key="GridCell.Tab.0.bottom/0.23.1920.975@0.23.1920.975" timestamp="1587664541383" />
     <state width="1880" height="386" key="GridCell.Tab.0.bottom/0.23.1920.979@0.23.1920.979" timestamp="1587231939402" />
     <state width="1807" height="307" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="1640" height="223" key="GridCell.Tab.0.center" timestamp="1587840537504">
+    <state width="1640" height="274" key="GridCell.Tab.0.center" timestamp="1587841834542">
       <screen x="0" y="23" width="1680" height="945" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650779" />
-    <state width="1640" height="223" key="GridCell.Tab.0.center/0.23.1680.945@0.23.1680.945" timestamp="1587840537504" />
+    <state width="1640" height="274" key="GridCell.Tab.0.center/0.23.1680.945@0.23.1680.945" timestamp="1587841834542" />
     <state width="1640" height="428" key="GridCell.Tab.0.center/0.23.1680.949@0.23.1680.949" timestamp="1586973403995" />
     <state width="1880" height="323" key="GridCell.Tab.0.center/0.23.1920.975@0.23.1920.975" timestamp="1587664541382" />
     <state width="1880" height="386" key="GridCell.Tab.0.center/0.23.1920.979@0.23.1920.979" timestamp="1587231939401" />
     <state width="1807" height="307" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="1640" height="223" key="GridCell.Tab.0.left" timestamp="1587840537503">
+    <state width="1640" height="274" key="GridCell.Tab.0.left" timestamp="1587841834541">
       <screen x="0" y="23" width="1680" height="945" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650778" />
-    <state width="1640" height="223" key="GridCell.Tab.0.left/0.23.1680.945@0.23.1680.945" timestamp="1587840537503" />
+    <state width="1640" height="274" key="GridCell.Tab.0.left/0.23.1680.945@0.23.1680.945" timestamp="1587841834541" />
     <state width="1640" height="428" key="GridCell.Tab.0.left/0.23.1680.949@0.23.1680.949" timestamp="1586973403994" />
     <state width="1880" height="323" key="GridCell.Tab.0.left/0.23.1920.975@0.23.1920.975" timestamp="1587664541381" />
     <state width="1880" height="386" key="GridCell.Tab.0.left/0.23.1920.979@0.23.1920.979" timestamp="1587231939400" />
     <state width="1807" height="307" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="1640" height="223" key="GridCell.Tab.0.right" timestamp="1587840537504">
+    <state width="1640" height="274" key="GridCell.Tab.0.right" timestamp="1587841834543">
       <screen x="0" y="23" width="1680" height="945" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650779" />
-    <state width="1640" height="223" key="GridCell.Tab.0.right/0.23.1680.945@0.23.1680.945" timestamp="1587840537504" />
+    <state width="1640" height="274" key="GridCell.Tab.0.right/0.23.1680.945@0.23.1680.945" timestamp="1587841834543" />
     <state width="1640" height="428" key="GridCell.Tab.0.right/0.23.1680.949@0.23.1680.949" timestamp="1586973403995" />
     <state width="1880" height="323" key="GridCell.Tab.0.right/0.23.1920.975@0.23.1920.975" timestamp="1587664541383" />
     <state width="1880" height="386" key="GridCell.Tab.0.right/0.23.1920.979@0.23.1920.979" timestamp="1587231939402" />
