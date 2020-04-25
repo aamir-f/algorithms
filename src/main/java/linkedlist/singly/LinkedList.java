@@ -82,24 +82,34 @@ public class LinkedList {
 
     }
 
-    //TC: O(n)
-    public Boolean isPalindromeUsingStack() {
-        boolean isPalindrome = true;
-        Stack<Integer> stack = new Stack<>();
-        Node temp = head;
-        while (temp != null) {
-            stack.push(temp.data);
-            temp = temp.next;
-        }
-        temp = head;
-        while (temp != null) {
-            if (temp.data != stack.pop()) {
-                isPalindrome = false;
-                break;
-            }
-            temp = temp.next;
-        }
 
+
+    public Boolean isPalindromeByReversing() {
+        Node slow_ptr = head;
+        Node previous_of_slow_ptr = head;
+        Node fast_ptr = head;
+        while (fast_ptr != null && fast_ptr.next != null) {
+            previous_of_slow_ptr = slow_ptr;
+            slow_ptr = slow_ptr.next;
+            fast_ptr = fast_ptr.next.next;
+        }
+        Node mid_node = null;
+        if (fast_ptr != null) {
+            mid_node = slow_ptr;
+            slow_ptr = slow_ptr.next;
+        }
+        Node second_ptr = slow_ptr;
+        previous_of_slow_ptr.next = null;
+        reverse();
+        boolean isPalindrome = compare(head, second_ptr);
+        reverse();
+
+        if (mid_node != null) {
+            previous_of_slow_ptr.next = mid_node;
+            mid_node.next = second_ptr;
+        } else {
+            previous_of_slow_ptr.next = second_ptr;
+        }
         return isPalindrome;
     }
 
@@ -125,11 +135,22 @@ public class LinkedList {
         System.out.println(ptr1.data);
     }
 
+    public boolean compare(Node temp1, Node temp2) {
+
+        while (temp1 != null && temp2 != null) {
+            if (temp1.data != temp2.data) return false;
+            temp1 = temp1.next;
+            temp2 = temp2.next;
+        }
+        if (temp1 == null && temp2 == null) return true;
+        return false;
+    }
+
+
     public void getMiddleUsingOddCheck() {
         int length = 1;
-        Node temp = head;
-        Node middle = temp;
-        Node current = temp;
+        Node middle = head;
+        Node current = head;
         while (current.next != null) {
             int oddCheck = length & 1;
             if (oddCheck == 1)
@@ -160,4 +181,6 @@ public class LinkedList {
         }
         return count;
     }
+
+
 }
