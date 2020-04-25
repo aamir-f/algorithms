@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5152287-336b-4cad-8cdf-be5a8a1765c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/ArrayPalindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arrays/ArrayZigZag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/ArrayZigZag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/singly/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/singly/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/singly/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/singly/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/learnbay/learnbaytracking.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/linkedlist/singly/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/linkedlist/singly/LinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/linkedlist/singly/MyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/linkedlist/singly/MyLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/linkedlist/singly/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/linkedlist/singly/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/linkedlist/singly/Palindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/linkedlist/singly/Palindrome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/linkedlist/singly/test$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/linkedlist/singly/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/linkedlist/singly/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arrays/LeftRotateArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/LeftRotateArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learnbay/learnbaytracking.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learnbay/learnbaytracking.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/learnbay/learnbaytracking.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/learnbay/learnbaytracking.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +39,9 @@
         </projects_view>
       </state>
     </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ScalaKash" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -92,7 +87,7 @@
       <recent name="E:\code\ScalaKash\src\main\scala\algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayPalindrome">
+  <component name="RunManager" selected="Application.LeftRotateArray">
     <configuration name="ArrayPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.ArrayPalindrome" />
       <module name="ScalaKash" />
@@ -119,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.singly.Palindrome" />
+    <configuration name="LeftRotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.LeftRotateArray" />
       <module name="ScalaKash" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedlist.singly.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,8 +127,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.singly.Reverse" />
+    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.singly.Palindrome" />
       <module name="ScalaKash" />
       <extension name="coverage">
         <pattern>
@@ -207,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeftRotateArray" />
         <item itemvalue="Application.ArrayPalindrome" />
         <item itemvalue="Application.ArrayZigZag" />
         <item itemvalue="Application.Palindrome" />
         <item itemvalue="Application.test" />
-        <item itemvalue="Application.Reverse" />
       </list>
     </recent_temporary>
   </component>
@@ -329,71 +324,71 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1582223058785" />
-    <state width="1640" height="272" key="GridCell.Tab.0.bottom" timestamp="1587836747788">
+    <state width="1640" height="223" key="GridCell.Tab.0.bottom" timestamp="1587840537505">
       <screen x="0" y="23" width="1680" height="945" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650780" />
-    <state width="1640" height="272" key="GridCell.Tab.0.bottom/0.23.1680.945@0.23.1680.945" timestamp="1587836747788" />
+    <state width="1640" height="223" key="GridCell.Tab.0.bottom/0.23.1680.945@0.23.1680.945" timestamp="1587840537505" />
     <state width="1640" height="428" key="GridCell.Tab.0.bottom/0.23.1680.949@0.23.1680.949" timestamp="1586973403995" />
     <state width="1880" height="323" key="GridCell.Tab.0.bottom/0.23.1920.975@0.23.1920.975" timestamp="1587664541383" />
     <state width="1880" height="386" key="GridCell.Tab.0.bottom/0.23.1920.979@0.23.1920.979" timestamp="1587231939402" />
     <state width="1807" height="307" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="1640" height="272" key="GridCell.Tab.0.center" timestamp="1587836747787">
+    <state width="1640" height="223" key="GridCell.Tab.0.center" timestamp="1587840537504">
       <screen x="0" y="23" width="1680" height="945" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650779" />
-    <state width="1640" height="272" key="GridCell.Tab.0.center/0.23.1680.945@0.23.1680.945" timestamp="1587836747787" />
+    <state width="1640" height="223" key="GridCell.Tab.0.center/0.23.1680.945@0.23.1680.945" timestamp="1587840537504" />
     <state width="1640" height="428" key="GridCell.Tab.0.center/0.23.1680.949@0.23.1680.949" timestamp="1586973403995" />
     <state width="1880" height="323" key="GridCell.Tab.0.center/0.23.1920.975@0.23.1920.975" timestamp="1587664541382" />
     <state width="1880" height="386" key="GridCell.Tab.0.center/0.23.1920.979@0.23.1920.979" timestamp="1587231939401" />
     <state width="1807" height="307" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="1640" height="272" key="GridCell.Tab.0.left" timestamp="1587836747786">
+    <state width="1640" height="223" key="GridCell.Tab.0.left" timestamp="1587840537503">
       <screen x="0" y="23" width="1680" height="945" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650778" />
-    <state width="1640" height="272" key="GridCell.Tab.0.left/0.23.1680.945@0.23.1680.945" timestamp="1587836747786" />
+    <state width="1640" height="223" key="GridCell.Tab.0.left/0.23.1680.945@0.23.1680.945" timestamp="1587840537503" />
     <state width="1640" height="428" key="GridCell.Tab.0.left/0.23.1680.949@0.23.1680.949" timestamp="1586973403994" />
     <state width="1880" height="323" key="GridCell.Tab.0.left/0.23.1920.975@0.23.1920.975" timestamp="1587664541381" />
     <state width="1880" height="386" key="GridCell.Tab.0.left/0.23.1920.979@0.23.1920.979" timestamp="1587231939400" />
     <state width="1807" height="307" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="1640" height="272" key="GridCell.Tab.0.right" timestamp="1587836747787">
+    <state width="1640" height="223" key="GridCell.Tab.0.right" timestamp="1587840537504">
       <screen x="0" y="23" width="1680" height="945" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650779" />
-    <state width="1640" height="272" key="GridCell.Tab.0.right/0.23.1680.945@0.23.1680.945" timestamp="1587836747787" />
+    <state width="1640" height="223" key="GridCell.Tab.0.right/0.23.1680.945@0.23.1680.945" timestamp="1587840537504" />
     <state width="1640" height="428" key="GridCell.Tab.0.right/0.23.1680.949@0.23.1680.949" timestamp="1586973403995" />
     <state width="1880" height="323" key="GridCell.Tab.0.right/0.23.1920.975@0.23.1920.975" timestamp="1587664541383" />
     <state width="1880" height="386" key="GridCell.Tab.0.right/0.23.1920.979@0.23.1920.979" timestamp="1587231939402" />
     <state width="1807" height="307" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="1640" height="354" key="GridCell.Tab.1.bottom" timestamp="1587813001445">
+    <state width="1640" height="420" key="GridCell.Tab.1.bottom" timestamp="1587839080165">
       <screen x="0" y="23" width="1680" height="945" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1585739432816" />
-    <state width="1640" height="354" key="GridCell.Tab.1.bottom/0.23.1680.945@0.23.1680.945" timestamp="1587813001445" />
+    <state width="1640" height="420" key="GridCell.Tab.1.bottom/0.23.1680.945@0.23.1680.945" timestamp="1587839080165" />
     <state width="1850" height="358" key="GridCell.Tab.1.bottom/0.23.1680.949@0.23.1680.949" timestamp="1586093241623" />
     <state width="1880" height="278" key="GridCell.Tab.1.bottom/0.23.1920.975@0.23.1920.975" timestamp="1587233269409" />
     <state width="1880" height="386" key="GridCell.Tab.1.bottom/0.23.1920.979@0.23.1920.979" timestamp="1587231939403" />
-    <state width="1640" height="354" key="GridCell.Tab.1.center" timestamp="1587813001444">
+    <state width="1640" height="420" key="GridCell.Tab.1.center" timestamp="1587839080164">
       <screen x="0" y="23" width="1680" height="945" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1585739432815" />
-    <state width="1640" height="354" key="GridCell.Tab.1.center/0.23.1680.945@0.23.1680.945" timestamp="1587813001444" />
+    <state width="1640" height="420" key="GridCell.Tab.1.center/0.23.1680.945@0.23.1680.945" timestamp="1587839080164" />
     <state width="1850" height="358" key="GridCell.Tab.1.center/0.23.1680.949@0.23.1680.949" timestamp="1586093241622" />
     <state width="1880" height="278" key="GridCell.Tab.1.center/0.23.1920.975@0.23.1920.975" timestamp="1587233269408" />
     <state width="1880" height="386" key="GridCell.Tab.1.center/0.23.1920.979@0.23.1920.979" timestamp="1587231939403" />
-    <state width="1640" height="354" key="GridCell.Tab.1.left" timestamp="1587813001444">
+    <state width="1640" height="420" key="GridCell.Tab.1.left" timestamp="1587839080164">
       <screen x="0" y="23" width="1680" height="945" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1585739432815" />
-    <state width="1640" height="354" key="GridCell.Tab.1.left/0.23.1680.945@0.23.1680.945" timestamp="1587813001444" />
+    <state width="1640" height="420" key="GridCell.Tab.1.left/0.23.1680.945@0.23.1680.945" timestamp="1587839080164" />
     <state width="1850" height="358" key="GridCell.Tab.1.left/0.23.1680.949@0.23.1680.949" timestamp="1586093241622" />
     <state width="1880" height="278" key="GridCell.Tab.1.left/0.23.1920.975@0.23.1920.975" timestamp="1587233269408" />
     <state width="1880" height="386" key="GridCell.Tab.1.left/0.23.1920.979@0.23.1920.979" timestamp="1587231939402" />
-    <state width="1640" height="354" key="GridCell.Tab.1.right" timestamp="1587813001444">
+    <state width="1640" height="420" key="GridCell.Tab.1.right" timestamp="1587839080165">
       <screen x="0" y="23" width="1680" height="945" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1585739432815" />
-    <state width="1640" height="354" key="GridCell.Tab.1.right/0.23.1680.945@0.23.1680.945" timestamp="1587813001444" />
+    <state width="1640" height="420" key="GridCell.Tab.1.right/0.23.1680.945@0.23.1680.945" timestamp="1587839080165" />
     <state width="1850" height="358" key="GridCell.Tab.1.right/0.23.1680.949@0.23.1680.949" timestamp="1586093241622" />
     <state width="1880" height="278" key="GridCell.Tab.1.right/0.23.1920.975@0.23.1920.975" timestamp="1587233269408" />
     <state width="1880" height="386" key="GridCell.Tab.1.right/0.23.1920.979@0.23.1920.979" timestamp="1587231939403" />
@@ -426,9 +421,10 @@
     <state x="603" y="351" key="com.intellij.ide.util.TipDialog/0.23.1920.977@0.23.1920.977" timestamp="1584592782947" />
     <state x="528" y="372" key="com.intellij.ide.util.TipDialog/0.23.1920.979@0.23.1920.979" timestamp="1587106300571" />
     <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1582733217382" />
-    <state x="601" y="136" width="683" height="806" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587220676939">
-      <screen x="0" y="23" width="1920" height="979" />
+    <state x="526" y="132" width="683" height="806" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587839409996">
+      <screen x="0" y="23" width="1680" height="945" />
     </state>
+    <state x="526" y="132" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1680.945@0.23.1680.945" timestamp="1587839409996" />
     <state x="601" y="136" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1920.979@0.23.1920.979" timestamp="1587220676939" />
     <state x="647" y="149" width="683" height="806" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1582392937225" />
     <state x="608" y="232" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586095269582">
