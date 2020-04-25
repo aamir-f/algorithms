@@ -5,6 +5,7 @@ import java.util.Stack;
 
 class MyLinkedList {
     Node head;
+    Node left;
     Node slow_ptr, fast_ptr, second_half;
 
     class Node {
@@ -112,13 +113,12 @@ class MyLinkedList {
 
     public boolean isPalindromeUsingRecursion(Node right) {
 
-        Node left = head;
-        if (right.next == null) {
+        left = head;
+        if (right == null) {
             return true;
         }
 
         boolean isPalindrome1 = isPalindromeUsingRecursion(right.next);
-        System.out.println("isPalindrome1" + isPalindrome1);
         if(!isPalindrome1) return false;
         boolean isPalindrome2 = left.data == right.data;
         left = left.next;
@@ -141,8 +141,8 @@ public class Palindrome {
         ll.print();
 
         System.out.println();
-        //System.out.println(ll.isPalindromeUsingStack());
-        //System.out.println(ll.isPalindromeByReversing());
+        System.out.println(ll.isPalindromeUsingStack());
+        System.out.println(ll.isPalindromeByReversing());
         System.out.println(ll.isPalindromeUsingRecursion(ll.head));
     }
 }
