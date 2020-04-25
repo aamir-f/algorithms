@@ -111,6 +111,8 @@ class MyLinkedList {
         return false;
     }
 
+    //Time Complexity: O(n)
+   // Auxiliary Space: O(n) if Function Call Stack size is considered, otherwise O(1).
     public boolean isPalindromeUsingRecursion(Node right) {
 
         left = head;
@@ -132,11 +134,13 @@ public class Palindrome {
     public static void main(String[] args) {
 
         MyLinkedList ll = new MyLinkedList();
-        ll.prepend(5);
-        ll.prepend(4);
+        ll.prepend(1);
+        ll.prepend(2);
         ll.prepend(3);
         ll.prepend(4);
-        ll.prepend(5);
+        ll.prepend(3);
+        ll.prepend(2);
+        ll.prepend(1);
 
         ll.print();
 

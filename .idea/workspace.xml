@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5152287-336b-4cad-8cdf-be5a8a1765c8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/singly/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/singly/Palindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/linkedlist/singly/Palindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/linkedlist/singly/Palindrome.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -318,38 +316,38 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1582223058785" />
-    <state width="1640" height="272" key="GridCell.Tab.0.bottom" timestamp="1587813025186">
+    <state width="1640" height="272" key="GridCell.Tab.0.bottom" timestamp="1587813592027">
       <screen x="0" y="23" width="1680" height="945" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650780" />
-    <state width="1640" height="272" key="GridCell.Tab.0.bottom/0.23.1680.945@0.23.1680.945" timestamp="1587813025186" />
+    <state width="1640" height="272" key="GridCell.Tab.0.bottom/0.23.1680.945@0.23.1680.945" timestamp="1587813592027" />
     <state width="1640" height="428" key="GridCell.Tab.0.bottom/0.23.1680.949@0.23.1680.949" timestamp="1586973403995" />
     <state width="1880" height="323" key="GridCell.Tab.0.bottom/0.23.1920.975@0.23.1920.975" timestamp="1587664541383" />
     <state width="1880" height="386" key="GridCell.Tab.0.bottom/0.23.1920.979@0.23.1920.979" timestamp="1587231939402" />
     <state width="1807" height="307" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="1640" height="272" key="GridCell.Tab.0.center" timestamp="1587813025184">
+    <state width="1640" height="272" key="GridCell.Tab.0.center" timestamp="1587813592025">
       <screen x="0" y="23" width="1680" height="945" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650779" />
-    <state width="1640" height="272" key="GridCell.Tab.0.center/0.23.1680.945@0.23.1680.945" timestamp="1587813025184" />
+    <state width="1640" height="272" key="GridCell.Tab.0.center/0.23.1680.945@0.23.1680.945" timestamp="1587813592025" />
     <state width="1640" height="428" key="GridCell.Tab.0.center/0.23.1680.949@0.23.1680.949" timestamp="1586973403995" />
     <state width="1880" height="323" key="GridCell.Tab.0.center/0.23.1920.975@0.23.1920.975" timestamp="1587664541382" />
     <state width="1880" height="386" key="GridCell.Tab.0.center/0.23.1920.979@0.23.1920.979" timestamp="1587231939401" />
     <state width="1807" height="307" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="1640" height="272" key="GridCell.Tab.0.left" timestamp="1587813025184">
+    <state width="1640" height="272" key="GridCell.Tab.0.left" timestamp="1587813592025">
       <screen x="0" y="23" width="1680" height="945" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650778" />
-    <state width="1640" height="272" key="GridCell.Tab.0.left/0.23.1680.945@0.23.1680.945" timestamp="1587813025184" />
+    <state width="1640" height="272" key="GridCell.Tab.0.left/0.23.1680.945@0.23.1680.945" timestamp="1587813592025" />
     <state width="1640" height="428" key="GridCell.Tab.0.left/0.23.1680.949@0.23.1680.949" timestamp="1586973403994" />
     <state width="1880" height="323" key="GridCell.Tab.0.left/0.23.1920.975@0.23.1920.975" timestamp="1587664541381" />
     <state width="1880" height="386" key="GridCell.Tab.0.left/0.23.1920.979@0.23.1920.979" timestamp="1587231939400" />
     <state width="1807" height="307" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="1640" height="272" key="GridCell.Tab.0.right" timestamp="1587813025185">
+    <state width="1640" height="272" key="GridCell.Tab.0.right" timestamp="1587813592026">
       <screen x="0" y="23" width="1680" height="945" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650779" />
-    <state width="1640" height="272" key="GridCell.Tab.0.right/0.23.1680.945@0.23.1680.945" timestamp="1587813025185" />
+    <state width="1640" height="272" key="GridCell.Tab.0.right/0.23.1680.945@0.23.1680.945" timestamp="1587813592026" />
     <state width="1640" height="428" key="GridCell.Tab.0.right/0.23.1680.949@0.23.1680.949" timestamp="1586973403995" />
     <state width="1880" height="323" key="GridCell.Tab.0.right/0.23.1920.975@0.23.1920.975" timestamp="1587664541383" />
     <state width="1880" height="386" key="GridCell.Tab.0.right/0.23.1920.979@0.23.1920.979" timestamp="1587231939402" />
@@ -474,17 +472,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/linkedlist/singly/Palindrome.java</url>
-          <line>123</line>
+          <line>124</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/linkedlist/singly/Palindrome.java</url>
-          <line>124</line>
+          <line>125</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/linkedlist/singly/Palindrome.java</url>
-          <line>121</line>
+          <line>122</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
       </breakpoints>
