@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5152287-336b-4cad-8cdf-be5a8a1765c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/PrintAlternateOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/math/ReverseNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/arrays/ArrayPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/ArrayPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Branch$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Branch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Leaf$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Leaf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Tree$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Tree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/notes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/sorting/Merge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/sorting/mergesort$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/algorithms/sorting/mergesort.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +73,7 @@
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15332031" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -98,9 +86,9 @@
       <recent name="E:\code\ScalaKash\src\main\scala\algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseNumber">
-    <configuration name="CountElementFrequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.CountElementFrequency" />
+  <component name="RunManager" selected="Application.ArrayPalindrome">
+    <configuration name="ArrayPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.ArrayPalindrome" />
       <module name="ScalaKash" />
       <extension name="coverage">
         <pattern>
@@ -112,8 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeftRotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.LeftRotateArray" />
+    <configuration name="CountElementFrequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.CountElementFrequency" />
       <module name="ScalaKash" />
       <extension name="coverage">
         <pattern>
@@ -213,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayPalindrome" />
         <item itemvalue="Application.ReverseNumber" />
         <item itemvalue="Application.PrintAlternateOrder" />
         <item itemvalue="Application.Sum2Elements" />
         <item itemvalue="Application.CountElementFrequency" />
-        <item itemvalue="Application.LeftRotateArray" />
       </list>
     </recent_temporary>
   </component>
@@ -335,38 +323,38 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1582223058785" />
-    <state width="1640" height="274" key="GridCell.Tab.0.bottom" timestamp="1587883184900">
+    <state width="1640" height="274" key="GridCell.Tab.0.bottom" timestamp="1587887865170">
       <screen x="0" y="23" width="1680" height="945" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650780" />
-    <state width="1640" height="274" key="GridCell.Tab.0.bottom/0.23.1680.945@0.23.1680.945" timestamp="1587883184900" />
+    <state width="1640" height="274" key="GridCell.Tab.0.bottom/0.23.1680.945@0.23.1680.945" timestamp="1587887865170" />
     <state width="1640" height="428" key="GridCell.Tab.0.bottom/0.23.1680.949@0.23.1680.949" timestamp="1586973403995" />
     <state width="1880" height="323" key="GridCell.Tab.0.bottom/0.23.1920.975@0.23.1920.975" timestamp="1587664541383" />
     <state width="1880" height="386" key="GridCell.Tab.0.bottom/0.23.1920.979@0.23.1920.979" timestamp="1587231939402" />
     <state width="1807" height="307" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="1640" height="274" key="GridCell.Tab.0.center" timestamp="1587883184899">
+    <state width="1640" height="274" key="GridCell.Tab.0.center" timestamp="1587887865169">
       <screen x="0" y="23" width="1680" height="945" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650779" />
-    <state width="1640" height="274" key="GridCell.Tab.0.center/0.23.1680.945@0.23.1680.945" timestamp="1587883184899" />
+    <state width="1640" height="274" key="GridCell.Tab.0.center/0.23.1680.945@0.23.1680.945" timestamp="1587887865169" />
     <state width="1640" height="428" key="GridCell.Tab.0.center/0.23.1680.949@0.23.1680.949" timestamp="1586973403995" />
     <state width="1880" height="323" key="GridCell.Tab.0.center/0.23.1920.975@0.23.1920.975" timestamp="1587664541382" />
     <state width="1880" height="386" key="GridCell.Tab.0.center/0.23.1920.979@0.23.1920.979" timestamp="1587231939401" />
     <state width="1807" height="307" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="1640" height="274" key="GridCell.Tab.0.left" timestamp="1587883184898">
+    <state width="1640" height="274" key="GridCell.Tab.0.left" timestamp="1587887865168">
       <screen x="0" y="23" width="1680" height="945" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650778" />
-    <state width="1640" height="274" key="GridCell.Tab.0.left/0.23.1680.945@0.23.1680.945" timestamp="1587883184898" />
+    <state width="1640" height="274" key="GridCell.Tab.0.left/0.23.1680.945@0.23.1680.945" timestamp="1587887865168" />
     <state width="1640" height="428" key="GridCell.Tab.0.left/0.23.1680.949@0.23.1680.949" timestamp="1586973403994" />
     <state width="1880" height="323" key="GridCell.Tab.0.left/0.23.1920.975@0.23.1920.975" timestamp="1587664541381" />
     <state width="1880" height="386" key="GridCell.Tab.0.left/0.23.1920.979@0.23.1920.979" timestamp="1587231939400" />
     <state width="1807" height="307" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="1640" height="274" key="GridCell.Tab.0.right" timestamp="1587883184900">
+    <state width="1640" height="274" key="GridCell.Tab.0.right" timestamp="1587887865169">
       <screen x="0" y="23" width="1680" height="945" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650779" />
-    <state width="1640" height="274" key="GridCell.Tab.0.right/0.23.1680.945@0.23.1680.945" timestamp="1587883184900" />
+    <state width="1640" height="274" key="GridCell.Tab.0.right/0.23.1680.945@0.23.1680.945" timestamp="1587887865169" />
     <state width="1640" height="428" key="GridCell.Tab.0.right/0.23.1680.949@0.23.1680.949" timestamp="1586973403995" />
     <state width="1880" height="323" key="GridCell.Tab.0.right/0.23.1920.975@0.23.1920.975" timestamp="1587664541383" />
     <state width="1880" height="386" key="GridCell.Tab.0.right/0.23.1920.979@0.23.1920.979" timestamp="1587231939402" />
@@ -407,9 +395,10 @@
       <screen x="0" y="23" width="1920" height="975" />
     </state>
     <state x="672" y="228" key="RollbackChangesDialog/0.23.1920.975@0.23.1920.975" timestamp="1587238077253" />
-    <state x="436" y="114" key="SettingsEditor" timestamp="1587662818801">
-      <screen x="0" y="23" width="1920" height="975" />
+    <state x="202" y="62" width="1354" height="828" key="SettingsEditor" timestamp="1587887792241">
+      <screen x="0" y="23" width="1680" height="945" />
     </state>
+    <state x="202" y="62" width="1354" height="828" key="SettingsEditor/0.23.1680.945@0.23.1680.945" timestamp="1587887792241" />
     <state x="376" y="164" key="SettingsEditor/0.23.1680.949@0.23.1680.949" timestamp="1586095533393" />
     <state x="436" y="114" key="SettingsEditor/0.23.1920.975@0.23.1920.975" timestamp="1587662818801" />
     <state x="136" y="150" key="SettingsEditor/0.23.1920.979@0.23.1920.979" timestamp="1586114438592" />

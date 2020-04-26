@@ -15,19 +15,23 @@ public class ArrayPalindrome {
     }
 
     public static boolean arrayOfPalindromesCheck(int[] arr) {
-        for (int item: arr) {
-
+        for (int item : arr) {
+            if (item != reverseDigits(item, 0)) return false;
         }
         return true;
     }
 
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 8, 1};
-        boolean check = isPalindrome(arr);
-        if (check) System.out.println("Palindrome");
+        int[] arr = {1, 2, 3, 2, 1};
+        boolean check1 = isPalindrome(arr);
+        if (check1) System.out.println("Palindrome");
         else System.out.println("Not Palindrome");
 
-        System.out.println("Now...arr of palindromes check");
+        System.out.println("");
+        System.out.println("============================");
         int[] arr1 = {111, 222, 333, 444, 555};
+        boolean check2 = arrayOfPalindromesCheck(arr1);
+        if (check2) System.out.println("array of Palindrome");
+        else System.out.println("Not array of Palindrome");
     }
 }
