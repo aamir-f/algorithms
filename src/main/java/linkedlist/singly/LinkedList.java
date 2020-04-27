@@ -6,18 +6,20 @@ import java.util.Stack;
 class Node {
     int data;
     Node next;
-
-    Node(int new_data) {
-        data = new_data;
-        next = null;
-    }
 }
 
 public class LinkedList {
     Node head;
 
+    public Node newNode(int data) {
+        Node temp = new Node();
+        temp.data = data;
+        temp.next = null;
+        return temp;
+    }
+
     public void prepend(int new_data) {
-        Node new_node = new Node(new_data);
+        Node new_node = newNode(new_data);
         new_node.next = head;
         head = new_node;
     }
@@ -42,34 +44,46 @@ public class LinkedList {
         }
         head = previous;
     }
+
     //Time Complexity: O(n)
     public Boolean floydCycleDetection() {
         Node slow_ptr = head;
         Node fast_ptr = head;
-        while(fast_ptr != null && fast_ptr.next != null) {
+        while (fast_ptr != null && fast_ptr.next != null) {
             slow_ptr = slow_ptr.next;
             fast_ptr = fast_ptr.next.next;
-            if(slow_ptr == fast_ptr) {
+            if (slow_ptr == fast_ptr) {
                 return true;
             }
 
         }
         return false;
     }
- //TC:O(n), aux space : hashset used
+
+    //TC:O(n), aux space : hashset used
     public Boolean hashingCycleDetection() {
         Node current = head;
         java.util.HashSet<Node> s = new HashSet<Node>();
 
-        while(current != null) {
-            if(s.contains(current)) return true;
+        while (current != null) {
+            if (s.contains(current)) return true;
             s.add(current);
             current = current.next;
         }
         return false;
     }
 
-    public Boolean cycleDetection() {
+    public Boolean cycleDetectionByMarkingVisitedNode() {
+        Node current = head;
+        Node temp = new Node();
+        Node next;
+        while (current != null) {
+            if (current.next == null) return false;
+            if (current.next == temp) return true;
+            next = current.next;
+            current.next = temp;
+            current = next;
+        }
         return false;
     }
 
@@ -100,7 +114,6 @@ public class LinkedList {
     public void insertAfterNode(Node prev_node, int new_data) {
 
     }
-
 
 
     public Boolean isPalindromeByReversing() {
