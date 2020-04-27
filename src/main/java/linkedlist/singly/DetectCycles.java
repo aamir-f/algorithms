@@ -8,11 +8,21 @@ public class DetectCycles {
     public static void main(String[] args) {
 
         LinkedList ll = new LinkedList();
-        ll.head = new Node(1);
-        ll.head.next = new Node(2);
-        ll.head.next.next = new Node(3);
-        ll.head.next.next.next = new Node(4);
-        ll.head.next.next.next.next = new Node(5);
+        Node first = new Node(1);
+        Node second = new Node(2);
+        Node third = new Node(3);
+        Node fourth = new Node(4);
+        Node fifth = new Node(5);
 
+        first.next = second;
+        second.next = third;
+        third.next = fourth;
+        fourth.next = fifth;
+
+        ll.head = first;
+        //fifth.next = third;
+        //boolean result = ll.hashingCycleDetection();
+        boolean result = ll.floydCycleDetection();
+        System.out.println("ll contains cycle: " + result);
     }
 }

@@ -42,11 +42,21 @@ public class LinkedList {
         }
         head = previous;
     }
-
+    //Time Complexity: O(n)
     public Boolean floydCycleDetection() {
+        Node slow_ptr = head;
+        Node fast_ptr = head;
+        while(fast_ptr != null && fast_ptr.next != null) {
+            slow_ptr = slow_ptr.next;
+            fast_ptr = fast_ptr.next.next;
+            if(slow_ptr == fast_ptr) {
+                return true;
+            }
+
+        }
         return false;
     }
-
+ //TC:O(n), aux space : hashset used
     public Boolean hashingCycleDetection() {
         Node current = head;
         java.util.HashSet<Node> s = new HashSet<Node>();

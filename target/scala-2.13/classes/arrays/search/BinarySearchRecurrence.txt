@@ -1,0 +1,27 @@
+Time Complexity:
+The time complexity of Binary Search can be written as
+
+T(n) = T(n/2) + 1 when n > 1
+T(n) = 1 when n = 1
+
+T(n) = T(n / 2) + 1,
+base case T(1) = 1 i.e as we are left with only one element in array, and that
+element is element to be searched so we return 1;
+
+let u solve,
+T(n) = T(n/2) + 1
+Also, T(n/2) = T(n/4) + 1
+then T(n) = T(T(n/4) + 1) + 1 ==> T(n/4) + 2
+Similarly, T(n/4) = T(n/8) + 1.
+
+then, T(n) = T(n/8) + 3
+or T(n) = T(n/2powerk) + k (if k = 3, equals T(n/8) + 3)
+
+so we have to call recursively till T(n/2powerk) equals 1 i.e base case....
+means n/2powerk equals 1 i.e log n to base 2 equals k i.e log n = k,
+
+so,
+T(n) = T(1) + logn
+i.e, T(n) = logn
+
+n/ 2 power k means , how many times we have to divide n ()till we reach 1
