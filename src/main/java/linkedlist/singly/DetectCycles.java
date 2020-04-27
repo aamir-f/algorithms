@@ -22,8 +22,8 @@ public class DetectCycles {
         ll.head = first;
         fifth.next = third;
         //boolean result = ll.hashingCycleDetection();
-        //boolean result = ll.floydCycleDetection();
-        boolean result = ll.cycleDetectionByMarkingVisitedNode();
+        boolean result = ll.floydCycleDetection();
+        //boolean result = ll.cycleDetectionByMarkingVisitedNode();
         System.out.println("ll contains cycle: " + result);
     }
 }
