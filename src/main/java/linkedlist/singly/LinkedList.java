@@ -46,21 +46,34 @@ public class LinkedList {
     }
 
     //Time Complexity: O(n)
-    public Boolean floydCycleDetection() {
+    public void floydCycleDetection() {
         Node slow_ptr = head;
         Node fast_ptr = head;
         while (slow_ptr != null && fast_ptr != null && fast_ptr.next != null) {
             slow_ptr = slow_ptr.next;
             fast_ptr = fast_ptr.next.next;
             if (slow_ptr == fast_ptr) {
-                return true;
+                System.out.println("Cycle Detected with length: " + cycleLength(slow_ptr));
+                System.out.println("removing it now....");
+                removeCycleMethod2(slow_ptr, head);
             }
 
         }
-        return false;
     }
 
     //TC:O(n), aux space : hashset used
+
+    public int cycleLength(Node loop) {
+        Node ptr2 = loop;
+        int k = 1;
+
+        while (ptr2.next != loop) {
+            ptr2 = ptr2.next;
+            k++;
+        }
+        return k;
+    }
+
     public Boolean hashingCycleDetection() {
         Node current = head;
         java.util.HashSet<Node> s = new HashSet<Node>();
@@ -85,6 +98,67 @@ public class LinkedList {
             current = next;
         }
         return false;
+    }
+
+    public void removeCycleMethod1(Node loop, Node head) {
+
+        Node ptr1 = head;
+        Node ptr2 = loop;
+
+        while (true) {
+            ptr2 = loop;
+            while (ptr2.next != loop && ptr2.next != ptr1) {
+                ptr2 = ptr2.next;
+            }
+            if (ptr2.next == ptr1) break;
+            ptr1 = ptr1.next;
+        }
+        ptr2.next = null;
+    }
+
+    public void removeCycleMethod2(Node loop, Node head) {
+        Node ptr1 = head;
+        Node ptr2 = loop;
+
+        while (ptr1.next != ptr2.next) {
+            ptr1 = ptr1.next;
+            ptr2 = ptr2.next;
+        }
+
+        ptr2.next = null;
+    }
+
+    public void detectAndRemoveCycleUsingHashing() {
+        Node current = head;
+        Node previous = new Node();
+        HashSet<Node> s = new HashSet<>();
+        while (current != null) {
+            if (s.contains(current)) {
+                System.out.println("Cycle detected with length: " + cycleLength(current));
+                previous.next = null;
+                break;
+            } else {
+                s.add(current);
+                previous = current;
+                current = current.next;
+            }
+
+        }
+    }
+
+    public void makeLoopAtKthPosition(int kth) {
+        int count = 1;
+        Node temp = head;
+        Node backupNode = new Node();
+        while(count < kth) {
+            temp = temp.next;
+            count++;
+        }
+        backupNode = temp;
+        while(temp.next != null)
+            temp = temp.next;
+
+        temp.next = backupNode;
     }
 
     public void append(int new_data) {
