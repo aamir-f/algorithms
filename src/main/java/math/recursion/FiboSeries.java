@@ -1,12 +1,20 @@
 package math.recursion;
 
+import scala.math.BigInt;
+
 import java.math.BigInteger;
 import java.util.Scanner;
+
 //http://www.maths.surrey.ac.uk/hosted-sites/R.Knott/Fibonacci/fibtable.html
 public class FiboSeries {
+    static BigInteger[] cache = new BigInteger[100];
+
     static BigInteger fiboRecursive(int n) {
         if (n <= 1) return BigInteger.valueOf(n);
-        else return fiboRecursive(n - 1).add(fiboRecursive(n - 2));
+        if (cache[n] != null) return cache[n];
+        else
+            cache[n] = fiboRecursive(n - 1).add(fiboRecursive(n - 2));
+        return cache[n];
     }
 
     //TC: O(n)
@@ -26,13 +34,21 @@ public class FiboSeries {
     }
 
     static void fiboSeries(int till) {
-        for (int i = 0; i < till; i++) {
-            System.out.println(fiboIterative(i));
+        for (int i = 0; i <= till; i++) {
+            //System.out.println(i + "th :  " + fiboIterative(i));
+            System.out.println(i + "th :  " + fiboRecursive(i));
         }
     }
 
-    public static void main(String[] args) {
+    static void print(BigInteger[] arr) {
+        for (BigInteger item : arr)
+            System.out.println("item : " + item);
+    }
 
-        fiboSeries(100);
+    public static void main(String[] args) {
+        long currentTime = System.nanoTime();
+        fiboSeries(45);
+        long elapsedTime = ((System.nanoTime() - currentTime) / 1_000_000_000);
+        System.out.println("total time elapsed: " + elapsedTime + " seconds");
     }
 }

@@ -38,7 +38,7 @@ public class FibonacciNumber {
     }
 
     public static void main(String[] args) {
-        //System.out.println(fiboRecursive(44));
+        System.out.println(fiboRecursive(44));
         System.out.println(fiboIterative(44));
         //System.out.println(recUsingFormula(50));
     }
