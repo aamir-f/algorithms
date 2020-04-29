@@ -47,7 +47,7 @@ public class FiboSeries {
 
     public static void main(String[] args) {
         long currentTime = System.nanoTime();
-        fiboSeries(45);
+        fiboSeries(50);
         long elapsedTime = ((System.nanoTime() - currentTime) / 1_000_000_000);
         System.out.println("total time elapsed: " + elapsedTime + " seconds");
     }
