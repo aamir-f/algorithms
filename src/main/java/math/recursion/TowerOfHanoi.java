@@ -1,6 +1,6 @@
 package math.recursion;
 import java.util.Scanner;
-
+//https://www.youtube.com/watch?v=Ajy8XweC3L8
 public class TowerOfHanoi {
 
     static void tower(int n, char s, char a, char d) {
