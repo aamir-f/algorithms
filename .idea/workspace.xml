@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5152287-336b-4cad-8cdf-be5a8a1765c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/stack/StackUsingArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stack/StackUsingLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stack/SignalTower.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,9 +90,9 @@
       <recent name="E:\code\ScalaKash\src\main\scala\algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StackUsingLinkedList">
-    <configuration name="FiboSeries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="math.recursion.FiboSeries" />
+  <component name="RunManager" selected="Application.SignalTower">
+    <configuration name="PowerOfN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="math.recursion.PowerOfN" />
       <module name="ScalaKash" />
       <extension name="coverage">
         <pattern>
@@ -105,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PowerOfN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="math.recursion.PowerOfN" />
+    <configuration name="SignalTower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.SignalTower" />
       <module name="ScalaKash" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="math.recursion.*" />
+          <option name="PATTERN" value="stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SignalTower" />
         <item itemvalue="Application.StackUsingLinkedList" />
         <item itemvalue="Application.StackUsingArrays" />
         <item itemvalue="Application.TowerOfHanoi" />
         <item itemvalue="Application.PowerOfN" />
-        <item itemvalue="Application.FiboSeries" />
       </list>
     </recent_temporary>
   </component>
@@ -329,40 +328,40 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1582223058785" />
-    <state width="778" height="273" key="GridCell.Tab.0.bottom" timestamp="1588234314670">
+    <state width="798" height="281" key="GridCell.Tab.0.bottom" timestamp="1588243883141">
       <screen x="0" y="23" width="1920" height="975" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650780" />
     <state width="1640" height="351" key="GridCell.Tab.0.bottom/0.23.1680.945@0.23.1680.945" timestamp="1587908135186" />
     <state width="1640" height="428" key="GridCell.Tab.0.bottom/0.23.1680.949@0.23.1680.949" timestamp="1586973403995" />
-    <state width="778" height="273" key="GridCell.Tab.0.bottom/0.23.1920.975@0.23.1920.975" timestamp="1588234314670" />
+    <state width="798" height="281" key="GridCell.Tab.0.bottom/0.23.1920.975@0.23.1920.975" timestamp="1588243883141" />
     <state width="1880" height="386" key="GridCell.Tab.0.bottom/0.23.1920.979@0.23.1920.979" timestamp="1587231939402" />
     <state width="1807" height="307" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="778" height="273" key="GridCell.Tab.0.center" timestamp="1588234314669">
+    <state width="798" height="281" key="GridCell.Tab.0.center" timestamp="1588243883140">
       <screen x="0" y="23" width="1920" height="975" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650779" />
     <state width="1640" height="351" key="GridCell.Tab.0.center/0.23.1680.945@0.23.1680.945" timestamp="1587908135185" />
     <state width="1640" height="428" key="GridCell.Tab.0.center/0.23.1680.949@0.23.1680.949" timestamp="1586973403995" />
-    <state width="778" height="273" key="GridCell.Tab.0.center/0.23.1920.975@0.23.1920.975" timestamp="1588234314669" />
+    <state width="798" height="281" key="GridCell.Tab.0.center/0.23.1920.975@0.23.1920.975" timestamp="1588243883140" />
     <state width="1880" height="386" key="GridCell.Tab.0.center/0.23.1920.979@0.23.1920.979" timestamp="1587231939401" />
     <state width="1807" height="307" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="778" height="273" key="GridCell.Tab.0.left" timestamp="1588234314668">
+    <state width="798" height="281" key="GridCell.Tab.0.left" timestamp="1588243883139">
       <screen x="0" y="23" width="1920" height="975" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650778" />
     <state width="1640" height="351" key="GridCell.Tab.0.left/0.23.1680.945@0.23.1680.945" timestamp="1587908135185" />
     <state width="1640" height="428" key="GridCell.Tab.0.left/0.23.1680.949@0.23.1680.949" timestamp="1586973403994" />
-    <state width="778" height="273" key="GridCell.Tab.0.left/0.23.1920.975@0.23.1920.975" timestamp="1588234314668" />
+    <state width="798" height="281" key="GridCell.Tab.0.left/0.23.1920.975@0.23.1920.975" timestamp="1588243883139" />
     <state width="1880" height="386" key="GridCell.Tab.0.left/0.23.1920.979@0.23.1920.979" timestamp="1587231939400" />
     <state width="1807" height="307" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="778" height="273" key="GridCell.Tab.0.right" timestamp="1588234314669">
+    <state width="798" height="281" key="GridCell.Tab.0.right" timestamp="1588243883140">
       <screen x="0" y="23" width="1920" height="975" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650779" />
     <state width="1640" height="351" key="GridCell.Tab.0.right/0.23.1680.945@0.23.1680.945" timestamp="1587908135185" />
     <state width="1640" height="428" key="GridCell.Tab.0.right/0.23.1680.949@0.23.1680.949" timestamp="1586973403995" />
-    <state width="778" height="273" key="GridCell.Tab.0.right/0.23.1920.975@0.23.1920.975" timestamp="1588234314669" />
+    <state width="798" height="281" key="GridCell.Tab.0.right/0.23.1920.975@0.23.1920.975" timestamp="1588243883140" />
     <state width="1880" height="386" key="GridCell.Tab.0.right/0.23.1920.979@0.23.1920.979" timestamp="1587231939402" />
     <state width="1807" height="307" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
     <state width="1880" height="324" key="GridCell.Tab.1.bottom" timestamp="1588160363364">
@@ -466,11 +465,12 @@
       <screen x="0" y="23" width="1920" height="979" />
     </state>
     <state x="625" y="236" key="run.anything.popup/0.23.1920.979@0.23.1920.979" timestamp="1587108489368" />
-    <state x="547" y="231" width="670" height="609" key="search.everywhere.popup" timestamp="1587906589932">
-      <screen x="0" y="23" width="1680" height="945" />
+    <state x="625" y="238" width="766" height="629" key="search.everywhere.popup" timestamp="1588243540900">
+      <screen x="0" y="23" width="1920" height="975" />
     </state>
     <state x="547" y="231" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1587115151039" />
     <state x="547" y="231" width="670" height="609" key="search.everywhere.popup/0.23.1680.945@0.23.1680.945" timestamp="1587906589932" />
+    <state x="625" y="238" width="766" height="629" key="search.everywhere.popup/0.23.1920.975@0.23.1920.975" timestamp="1588243540900" />
     <state x="625" y="238" key="search.everywhere.popup/0.23.1920.979@0.23.1920.979" timestamp="1587110468305" />
   </component>
   <component name="WorksheetDefaultProjectSettings">
