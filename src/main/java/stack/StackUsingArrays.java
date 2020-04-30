@@ -15,6 +15,10 @@ public class StackUsingArrays {
         return (top < 0);
     }
 
+    boolean nonEmpty() {
+        return !isEmpty();
+    }
+
     StackUsingArrays() {
         top = -1;
     }
@@ -25,7 +29,6 @@ public class StackUsingArrays {
             return false;
         } else {
             a[++top] = x;
-            System.out.println(x + " pushed into stack");
             return true;
         }
     }
