@@ -1,12 +1,10 @@
 package stack;
 
-;
-import java.util.Scanner;
 /**
 Pros: Easy to implement. Memory is saved as pointers are not involved.
 Cons: It is not dynamic. It doesn’t grow and shrink depending on needs at runtime.
  */
-public class StackUsingArrays {
+public class StackInt {
     final static int MAX = 1000;
     int top;
     int a[] = new int[MAX];
@@ -19,7 +17,7 @@ public class StackUsingArrays {
         return !isEmpty();
     }
 
-    StackUsingArrays() {
+    StackInt() {
         top = -1;
     }
 
@@ -49,7 +47,7 @@ public class StackUsingArrays {
 
     public static void main(String[] args) {
 
-        StackUsingArrays s = new StackUsingArrays();
+        StackInt s = new StackInt();
         s.push(10);
         s.push(20);
         s.push(30);

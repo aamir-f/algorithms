@@ -1,7 +1,5 @@
 package stack;
 
-import java.util.Scanner;
-
 public class SignalTower {
 
     //TC: O(n*n)
@@ -19,7 +17,7 @@ public class SignalTower {
 
     static int [] usingStack(int [] arr) {
         int [] res = new int[arr.length];
-        StackUsingArrays stack = new StackUsingArrays();
+        StackInt stack = new StackInt();
         for(int i = 0; i < arr.length; i++) {
             while(stack.nonEmpty() && arr[i] > arr[stack.peek()])
                 stack.pop();

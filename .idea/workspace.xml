@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5152287-336b-4cad-8cdf-be5a8a1765c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/stack/BalancedParen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stack/StackChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/ElementsLessThanNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stack/NextGreatestElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strings/RemoveVowels.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arrays/LeftRotateArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/LeftRotateArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stack/SignalTower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stack/SignalTower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stack/StackUsingArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stack/StackInt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/stack/SignalTower.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/stack/SignalTower.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/stack/StackUsingArrays.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +97,7 @@
       <recent name="E:\code\ScalaKash\src\main\scala\algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BalancedParen">
+  <component name="RunManager" selected="Application.LeftRotateArray">
     <configuration name="BalancedParen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stack.BalancedParen" />
       <module name="ScalaKash" />
@@ -105,8 +111,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SignalTower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.SignalTower" />
+    <configuration name="ElementsLessThanNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.ElementsLessThanNumber" />
+      <module name="ScalaKash" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeftRotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.LeftRotateArray" />
+      <module name="ScalaKash" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NextGreatestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.NextGreatestElement" />
       <module name="ScalaKash" />
       <extension name="coverage">
         <pattern>
@@ -118,38 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackUsingArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.StackUsingArrays" />
+    <configuration name="RemoveVowels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.RemoveVowels" />
       <module name="ScalaKash" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackUsingLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.StackUsingLinkedList" />
-      <module name="ScalaKash" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TowerOfHanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="math.recursion.TowerOfHanoi" />
-      <module name="ScalaKash" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="math.recursion.*" />
+          <option name="PATTERN" value="strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeftRotateArray" />
+        <item itemvalue="Application.ElementsLessThanNumber" />
+        <item itemvalue="Application.RemoveVowels" />
+        <item itemvalue="Application.NextGreatestElement" />
         <item itemvalue="Application.BalancedParen" />
-        <item itemvalue="Application.SignalTower" />
-        <item itemvalue="Application.StackUsingLinkedList" />
-        <item itemvalue="Application.StackUsingArrays" />
-        <item itemvalue="Application.TowerOfHanoi" />
       </list>
     </recent_temporary>
   </component>
@@ -329,8 +335,8 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1582223058785" />
-    <state width="1640" height="281" key="GridCell.Tab.0.bottom" timestamp="1588413988805">
-      <screen x="82" y="23" width="1838" height="1057" />
+    <state width="1558" height="292" key="GridCell.Tab.0.bottom" timestamp="1588671126522">
+      <screen x="82" y="23" width="1598" height="1027" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650780" />
     <state width="1640" height="281" key="GridCell.Tab.0.bottom/0.23.1680.945@0.23.1680.945" timestamp="1588250114574" />
@@ -338,9 +344,10 @@
     <state width="914" height="281" key="GridCell.Tab.0.bottom/0.23.1920.975@0.23.1920.975" timestamp="1588245253769" />
     <state width="1880" height="386" key="GridCell.Tab.0.bottom/0.23.1920.979@0.23.1920.979" timestamp="1587231939402" />
     <state width="1807" height="307" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="1640" height="281" key="GridCell.Tab.0.bottom/82.23.1838.1057@82.23.1838.1057" timestamp="1588413988805" />
-    <state width="1640" height="281" key="GridCell.Tab.0.center" timestamp="1588413988804">
-      <screen x="82" y="23" width="1838" height="1057" />
+    <state width="1558" height="292" key="GridCell.Tab.0.bottom/82.23.1598.1027@82.23.1598.1027" timestamp="1588671126522" />
+    <state width="1265" height="292" key="GridCell.Tab.0.bottom/82.23.1838.1057@82.23.1838.1057" timestamp="1588416333467" />
+    <state width="1558" height="292" key="GridCell.Tab.0.center" timestamp="1588671126521">
+      <screen x="82" y="23" width="1598" height="1027" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650779" />
     <state width="1640" height="281" key="GridCell.Tab.0.center/0.23.1680.945@0.23.1680.945" timestamp="1588250114573" />
@@ -348,9 +355,10 @@
     <state width="914" height="281" key="GridCell.Tab.0.center/0.23.1920.975@0.23.1920.975" timestamp="1588245253768" />
     <state width="1880" height="386" key="GridCell.Tab.0.center/0.23.1920.979@0.23.1920.979" timestamp="1587231939401" />
     <state width="1807" height="307" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="1640" height="281" key="GridCell.Tab.0.center/82.23.1838.1057@82.23.1838.1057" timestamp="1588413988804" />
-    <state width="1640" height="281" key="GridCell.Tab.0.left" timestamp="1588413988804">
-      <screen x="82" y="23" width="1838" height="1057" />
+    <state width="1558" height="292" key="GridCell.Tab.0.center/82.23.1598.1027@82.23.1598.1027" timestamp="1588671126521" />
+    <state width="1265" height="292" key="GridCell.Tab.0.center/82.23.1838.1057@82.23.1838.1057" timestamp="1588416333466" />
+    <state width="1558" height="292" key="GridCell.Tab.0.left" timestamp="1588671126521">
+      <screen x="82" y="23" width="1598" height="1027" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650778" />
     <state width="1640" height="281" key="GridCell.Tab.0.left/0.23.1680.945@0.23.1680.945" timestamp="1588250114572" />
@@ -358,9 +366,10 @@
     <state width="914" height="281" key="GridCell.Tab.0.left/0.23.1920.975@0.23.1920.975" timestamp="1588245253767" />
     <state width="1880" height="386" key="GridCell.Tab.0.left/0.23.1920.979@0.23.1920.979" timestamp="1587231939400" />
     <state width="1807" height="307" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="1640" height="281" key="GridCell.Tab.0.left/82.23.1838.1057@82.23.1838.1057" timestamp="1588413988804" />
-    <state width="1640" height="281" key="GridCell.Tab.0.right" timestamp="1588413988805">
-      <screen x="82" y="23" width="1838" height="1057" />
+    <state width="1558" height="292" key="GridCell.Tab.0.left/82.23.1598.1027@82.23.1598.1027" timestamp="1588671126521" />
+    <state width="1265" height="292" key="GridCell.Tab.0.left/82.23.1838.1057@82.23.1838.1057" timestamp="1588416333466" />
+    <state width="1558" height="292" key="GridCell.Tab.0.right" timestamp="1588671126522">
+      <screen x="82" y="23" width="1598" height="1027" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650779" />
     <state width="1640" height="281" key="GridCell.Tab.0.right/0.23.1680.945@0.23.1680.945" timestamp="1588250114573" />
@@ -368,39 +377,48 @@
     <state width="914" height="281" key="GridCell.Tab.0.right/0.23.1920.975@0.23.1920.975" timestamp="1588245253768" />
     <state width="1880" height="386" key="GridCell.Tab.0.right/0.23.1920.979@0.23.1920.979" timestamp="1587231939402" />
     <state width="1807" height="307" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="1640" height="281" key="GridCell.Tab.0.right/82.23.1838.1057@82.23.1838.1057" timestamp="1588413988805" />
-    <state width="1640" height="311" key="GridCell.Tab.1.bottom" timestamp="1588250067815">
-      <screen x="0" y="23" width="1680" height="945" />
+    <state width="1558" height="292" key="GridCell.Tab.0.right/82.23.1598.1027@82.23.1598.1027" timestamp="1588671126522" />
+    <state width="1265" height="292" key="GridCell.Tab.0.right/82.23.1838.1057@82.23.1838.1057" timestamp="1588416333467" />
+    <state width="1558" height="310" key="GridCell.Tab.1.bottom" timestamp="1588615992554">
+      <screen x="82" y="23" width="1598" height="1027" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1585739432816" />
     <state width="1640" height="311" key="GridCell.Tab.1.bottom/0.23.1680.945@0.23.1680.945" timestamp="1588250067815" />
     <state width="1850" height="358" key="GridCell.Tab.1.bottom/0.23.1680.949@0.23.1680.949" timestamp="1586093241623" />
     <state width="1880" height="324" key="GridCell.Tab.1.bottom/0.23.1920.975@0.23.1920.975" timestamp="1588160363364" />
     <state width="1880" height="386" key="GridCell.Tab.1.bottom/0.23.1920.979@0.23.1920.979" timestamp="1587231939403" />
-    <state width="1640" height="311" key="GridCell.Tab.1.center" timestamp="1588250067814">
-      <screen x="0" y="23" width="1680" height="945" />
+    <state width="1558" height="310" key="GridCell.Tab.1.bottom/82.23.1598.1027@82.23.1598.1027" timestamp="1588615992554" />
+    <state width="1265" height="323" key="GridCell.Tab.1.bottom/82.23.1838.1057@82.23.1838.1057" timestamp="1588416293288" />
+    <state width="1558" height="310" key="GridCell.Tab.1.center" timestamp="1588615992554">
+      <screen x="82" y="23" width="1598" height="1027" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1585739432815" />
     <state width="1640" height="311" key="GridCell.Tab.1.center/0.23.1680.945@0.23.1680.945" timestamp="1588250067814" />
     <state width="1850" height="358" key="GridCell.Tab.1.center/0.23.1680.949@0.23.1680.949" timestamp="1586093241622" />
     <state width="1880" height="324" key="GridCell.Tab.1.center/0.23.1920.975@0.23.1920.975" timestamp="1588160363363" />
     <state width="1880" height="386" key="GridCell.Tab.1.center/0.23.1920.979@0.23.1920.979" timestamp="1587231939403" />
-    <state width="1640" height="311" key="GridCell.Tab.1.left" timestamp="1588250067814">
-      <screen x="0" y="23" width="1680" height="945" />
+    <state width="1558" height="310" key="GridCell.Tab.1.center/82.23.1598.1027@82.23.1598.1027" timestamp="1588615992554" />
+    <state width="1265" height="323" key="GridCell.Tab.1.center/82.23.1838.1057@82.23.1838.1057" timestamp="1588416293287" />
+    <state width="1558" height="310" key="GridCell.Tab.1.left" timestamp="1588615992553">
+      <screen x="82" y="23" width="1598" height="1027" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1585739432815" />
     <state width="1640" height="311" key="GridCell.Tab.1.left/0.23.1680.945@0.23.1680.945" timestamp="1588250067814" />
     <state width="1850" height="358" key="GridCell.Tab.1.left/0.23.1680.949@0.23.1680.949" timestamp="1586093241622" />
     <state width="1880" height="324" key="GridCell.Tab.1.left/0.23.1920.975@0.23.1920.975" timestamp="1588160363363" />
     <state width="1880" height="386" key="GridCell.Tab.1.left/0.23.1920.979@0.23.1920.979" timestamp="1587231939402" />
-    <state width="1640" height="311" key="GridCell.Tab.1.right" timestamp="1588250067815">
-      <screen x="0" y="23" width="1680" height="945" />
+    <state width="1558" height="310" key="GridCell.Tab.1.left/82.23.1598.1027@82.23.1598.1027" timestamp="1588615992553" />
+    <state width="1265" height="323" key="GridCell.Tab.1.left/82.23.1838.1057@82.23.1838.1057" timestamp="1588416293287" />
+    <state width="1558" height="310" key="GridCell.Tab.1.right" timestamp="1588615992554">
+      <screen x="82" y="23" width="1598" height="1027" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1585739432815" />
     <state width="1640" height="311" key="GridCell.Tab.1.right/0.23.1680.945@0.23.1680.945" timestamp="1588250067815" />
     <state width="1850" height="358" key="GridCell.Tab.1.right/0.23.1680.949@0.23.1680.949" timestamp="1586093241622" />
     <state width="1880" height="324" key="GridCell.Tab.1.right/0.23.1920.975@0.23.1920.975" timestamp="1588160363363" />
     <state width="1880" height="386" key="GridCell.Tab.1.right/0.23.1920.979@0.23.1920.979" timestamp="1587231939403" />
+    <state width="1558" height="310" key="GridCell.Tab.1.right/82.23.1598.1027@82.23.1598.1027" timestamp="1588615992554" />
+    <state width="1265" height="323" key="GridCell.Tab.1.right/82.23.1838.1057@82.23.1838.1057" timestamp="1588416293287" />
     <state x="672" y="228" key="RollbackChangesDialog" timestamp="1587238077253">
       <screen x="0" y="23" width="1920" height="975" />
     </state>
@@ -423,8 +441,8 @@
       <screen x="0" y="23" width="1920" height="979" />
     </state>
     <state x="100" y="153" width="1480" height="749" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1920.979@0.23.1920.979" timestamp="1586109608517" />
-    <state x="528" y="371" key="com.intellij.ide.util.TipDialog" timestamp="1587972632652">
-      <screen x="0" y="23" width="1920" height="975" />
+    <state x="521" y="390" key="com.intellij.ide.util.TipDialog" timestamp="1588594148324">
+      <screen x="82" y="23" width="1598" height="1027" />
     </state>
     <state x="462" y="360" key="com.intellij.ide.util.TipDialog/0.23.1680.945@0.23.1680.945" timestamp="1587810016843" />
     <state x="528" y="342" key="com.intellij.ide.util.TipDialog/0.23.1680.949@0.23.1680.949" timestamp="1587024201912" />
@@ -432,6 +450,7 @@
     <state x="603" y="351" key="com.intellij.ide.util.TipDialog/0.23.1920.977@0.23.1920.977" timestamp="1584592782947" />
     <state x="528" y="372" key="com.intellij.ide.util.TipDialog/0.23.1920.979@0.23.1920.979" timestamp="1587106300571" />
     <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1582733217382" />
+    <state x="521" y="390" key="com.intellij.ide.util.TipDialog/82.23.1598.1027@82.23.1598.1027" timestamp="1588594148324" />
     <state x="439" y="397" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1587890285211">
       <screen x="0" y="23" width="1680" height="945" />
     </state>
@@ -470,13 +489,14 @@
       <screen x="0" y="23" width="1920" height="979" />
     </state>
     <state x="625" y="236" key="run.anything.popup/0.23.1920.979@0.23.1920.979" timestamp="1587108489368" />
-    <state x="625" y="238" width="766" height="629" key="search.everywhere.popup" timestamp="1588243540900">
-      <screen x="0" y="23" width="1920" height="975" />
+    <state x="602" y="249" width="670" height="663" key="search.everywhere.popup" timestamp="1588616354782">
+      <screen x="82" y="23" width="1598" height="1027" />
     </state>
     <state x="547" y="231" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1587115151039" />
     <state x="547" y="231" width="670" height="609" key="search.everywhere.popup/0.23.1680.945@0.23.1680.945" timestamp="1587906589932" />
     <state x="625" y="238" width="766" height="629" key="search.everywhere.popup/0.23.1920.975@0.23.1920.975" timestamp="1588243540900" />
     <state x="625" y="238" key="search.everywhere.popup/0.23.1920.979@0.23.1920.979" timestamp="1587110468305" />
+    <state x="602" y="249" width="670" height="663" key="search.everywhere.popup/82.23.1598.1027@82.23.1598.1027" timestamp="1588616354782" />
   </component>
   <component name="WorksheetDefaultProjectSettings">
     <option name="compilerProfileName" value="Default" />
@@ -490,21 +510,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/virtualfs/commands/Command.java</url>
           <line>13</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/linkedlist/singly/Palindrome.java</url>
-          <line>125</line>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/linkedlist/singly/Palindrome.java</url>
-          <line>126</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/linkedlist/singly/Palindrome.java</url>
-          <line>123</line>
-          <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="scala-line">
           <url>file://$PROJECT_DIR$/src/main/scala/algorithms/math/NthFibonacci.scala</url>

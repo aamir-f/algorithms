@@ -96,12 +96,12 @@ public class LeftRotateArray {
 
     public static void main(String[] args) {
         int i = 0;
-        int[] arr = {1, 2, 3, 4, 5, 6};
+        int[] arr = {1, 2, 3, 4, 5};
         //method1(arr, 2);
         //method2(arr, 3);
         //reversalAlgorigthm(arr, 2);
         //jugglingAlgorithm1(arr, 4);
-        jugglingAlgorithm2(arr, 2);
+        jugglingAlgorithm2(arr, 4);
         System.out.println("Array rotation: ");
         for (int item : arr) {
             System.out.print(item + " ");
