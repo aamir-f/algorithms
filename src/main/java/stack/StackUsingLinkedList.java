@@ -20,7 +20,7 @@ public class StackUsingLinkedList {
     boolean isEmpty() {
         return root == null;
     }
-
+ //O(1)
     void push(int data) {
         StackNode newNode = new StackNode(data);
         if(root == null) root = newNode;
@@ -30,7 +30,7 @@ public class StackUsingLinkedList {
             newNode.next = temp;
         }
     }
-
+ //O(1)
     int pop() {
         int popped = Integer.MIN_VALUE;
         if(root == null) {
