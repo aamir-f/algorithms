@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5152287-336b-4cad-8cdf-be5a8a1765c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/ElementsLessThanNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stack/NextGreatestElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strings/RemoveVowels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/RemoveMaxMinTillOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strings/CapitalizeString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strings/StringHasSameChars.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arrays/LeftRotateArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/LeftRotateArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stack/SignalTower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stack/SignalTower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stack/StackUsingArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stack/StackInt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/stack/SignalTower.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/stack/SignalTower.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/stack/StackUsingArrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/singly/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/singly/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/linkedlist/singly/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/linkedlist/singly/LinkedList.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,13 +94,13 @@
       <recent name="E:\code\ScalaKash\src\main\scala\algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LeftRotateArray">
-    <configuration name="BalancedParen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.BalancedParen" />
+  <component name="RunManager" selected="Application.StringHasSameChars">
+    <configuration name="CapitalizeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.CapitalizeString" />
       <module name="ScalaKash" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stack.*" />
+          <option name="PATTERN" value="strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextGreatestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.NextGreatestElement" />
+    <configuration name="RemoveMaxMinTillOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.RemoveMaxMinTillOne" />
       <module name="ScalaKash" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stack.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,8 +147,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveVowels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.RemoveVowels" />
+    <configuration name="StringHasSameChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.StringHasSameChars" />
       <module name="ScalaKash" />
       <extension name="coverage">
         <pattern>
@@ -212,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringHasSameChars" />
+        <item itemvalue="Application.CapitalizeString" />
+        <item itemvalue="Application.RemoveMaxMinTillOne" />
         <item itemvalue="Application.LeftRotateArray" />
         <item itemvalue="Application.ElementsLessThanNumber" />
-        <item itemvalue="Application.RemoveVowels" />
-        <item itemvalue="Application.NextGreatestElement" />
-        <item itemvalue="Application.BalancedParen" />
       </list>
     </recent_temporary>
   </component>
@@ -322,6 +319,10 @@
     </state>
     <state x="398" y="429" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1680.945@0.23.1680.945" timestamp="1587818035947" />
     <state x="455" y="442" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1920.975@0.23.1920.975" timestamp="1587480617526" />
+    <state x="611" y="363" width="540" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1588676814384">
+      <screen x="82" y="23" width="1598" height="1027" />
+    </state>
+    <state x="611" y="363" width="540" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/82.23.1598.1027@82.23.1598.1027" timestamp="1588676814384" />
     <state x="604" y="390" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1587818037720">
       <screen x="0" y="23" width="1680" height="945" />
     </state>
@@ -335,7 +336,7 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1582223058785" />
-    <state width="1558" height="292" key="GridCell.Tab.0.bottom" timestamp="1588671126522">
+    <state width="1558" height="292" key="GridCell.Tab.0.bottom" timestamp="1588677970271">
       <screen x="82" y="23" width="1598" height="1027" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650780" />
@@ -344,9 +345,9 @@
     <state width="914" height="281" key="GridCell.Tab.0.bottom/0.23.1920.975@0.23.1920.975" timestamp="1588245253769" />
     <state width="1880" height="386" key="GridCell.Tab.0.bottom/0.23.1920.979@0.23.1920.979" timestamp="1587231939402" />
     <state width="1807" height="307" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="1558" height="292" key="GridCell.Tab.0.bottom/82.23.1598.1027@82.23.1598.1027" timestamp="1588671126522" />
+    <state width="1558" height="292" key="GridCell.Tab.0.bottom/82.23.1598.1027@82.23.1598.1027" timestamp="1588677970271" />
     <state width="1265" height="292" key="GridCell.Tab.0.bottom/82.23.1838.1057@82.23.1838.1057" timestamp="1588416333467" />
-    <state width="1558" height="292" key="GridCell.Tab.0.center" timestamp="1588671126521">
+    <state width="1558" height="292" key="GridCell.Tab.0.center" timestamp="1588677970270">
       <screen x="82" y="23" width="1598" height="1027" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650779" />
@@ -355,9 +356,9 @@
     <state width="914" height="281" key="GridCell.Tab.0.center/0.23.1920.975@0.23.1920.975" timestamp="1588245253768" />
     <state width="1880" height="386" key="GridCell.Tab.0.center/0.23.1920.979@0.23.1920.979" timestamp="1587231939401" />
     <state width="1807" height="307" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="1558" height="292" key="GridCell.Tab.0.center/82.23.1598.1027@82.23.1598.1027" timestamp="1588671126521" />
+    <state width="1558" height="292" key="GridCell.Tab.0.center/82.23.1598.1027@82.23.1598.1027" timestamp="1588677970270" />
     <state width="1265" height="292" key="GridCell.Tab.0.center/82.23.1838.1057@82.23.1838.1057" timestamp="1588416333466" />
-    <state width="1558" height="292" key="GridCell.Tab.0.left" timestamp="1588671126521">
+    <state width="1558" height="292" key="GridCell.Tab.0.left" timestamp="1588677970269">
       <screen x="82" y="23" width="1598" height="1027" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650778" />
@@ -366,9 +367,9 @@
     <state width="914" height="281" key="GridCell.Tab.0.left/0.23.1920.975@0.23.1920.975" timestamp="1588245253767" />
     <state width="1880" height="386" key="GridCell.Tab.0.left/0.23.1920.979@0.23.1920.979" timestamp="1587231939400" />
     <state width="1807" height="307" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="1558" height="292" key="GridCell.Tab.0.left/82.23.1598.1027@82.23.1598.1027" timestamp="1588671126521" />
+    <state width="1558" height="292" key="GridCell.Tab.0.left/82.23.1598.1027@82.23.1598.1027" timestamp="1588677970269" />
     <state width="1265" height="292" key="GridCell.Tab.0.left/82.23.1838.1057@82.23.1838.1057" timestamp="1588416333466" />
-    <state width="1558" height="292" key="GridCell.Tab.0.right" timestamp="1588671126522">
+    <state width="1558" height="292" key="GridCell.Tab.0.right" timestamp="1588677970271">
       <screen x="82" y="23" width="1598" height="1027" />
     </state>
     <state width="1640" height="247" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1585739650779" />
@@ -377,7 +378,7 @@
     <state width="914" height="281" key="GridCell.Tab.0.right/0.23.1920.975@0.23.1920.975" timestamp="1588245253768" />
     <state width="1880" height="386" key="GridCell.Tab.0.right/0.23.1920.979@0.23.1920.979" timestamp="1587231939402" />
     <state width="1807" height="307" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1582740999947" />
-    <state width="1558" height="292" key="GridCell.Tab.0.right/82.23.1598.1027@82.23.1598.1027" timestamp="1588671126522" />
+    <state width="1558" height="292" key="GridCell.Tab.0.right/82.23.1598.1027@82.23.1598.1027" timestamp="1588677970271" />
     <state width="1265" height="292" key="GridCell.Tab.0.right/82.23.1838.1057@82.23.1838.1057" timestamp="1588416333467" />
     <state width="1558" height="310" key="GridCell.Tab.1.bottom" timestamp="1588615992554">
       <screen x="82" y="23" width="1598" height="1027" />
@@ -489,14 +490,14 @@
       <screen x="0" y="23" width="1920" height="979" />
     </state>
     <state x="625" y="236" key="run.anything.popup/0.23.1920.979@0.23.1920.979" timestamp="1587108489368" />
-    <state x="602" y="249" width="670" height="663" key="search.everywhere.popup" timestamp="1588616354782">
+    <state x="602" y="249" width="670" height="663" key="search.everywhere.popup" timestamp="1588673404812">
       <screen x="82" y="23" width="1598" height="1027" />
     </state>
     <state x="547" y="231" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1587115151039" />
     <state x="547" y="231" width="670" height="609" key="search.everywhere.popup/0.23.1680.945@0.23.1680.945" timestamp="1587906589932" />
     <state x="625" y="238" width="766" height="629" key="search.everywhere.popup/0.23.1920.975@0.23.1920.975" timestamp="1588243540900" />
     <state x="625" y="238" key="search.everywhere.popup/0.23.1920.979@0.23.1920.979" timestamp="1587110468305" />
-    <state x="602" y="249" width="670" height="663" key="search.everywhere.popup/82.23.1598.1027@82.23.1598.1027" timestamp="1588616354782" />
+    <state x="602" y="249" width="670" height="663" key="search.everywhere.popup/82.23.1598.1027@82.23.1598.1027" timestamp="1588673404812" />
   </component>
   <component name="WorksheetDefaultProjectSettings">
     <option name="compilerProfileName" value="Default" />

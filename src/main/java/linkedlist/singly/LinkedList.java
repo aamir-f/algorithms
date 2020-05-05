@@ -162,7 +162,21 @@ public class LinkedList {
     }
 
     public void append(int new_data) {
+        Node new_node = newNode(new_data);
+        Node temp = head;
+        while(temp.next != null)
+            temp = temp.next;
 
+        temp.next = new_node;
+
+    }
+
+    void printReverse(Node head) {
+        if (head == null) return;
+
+        printReverse(head.next);
+
+        System.out.print(head.data+" ");
     }
 
     public void deleteStart() {
@@ -173,8 +187,26 @@ public class LinkedList {
 
     }
 
-    public void deleteAtIndex(int index) {
+    public void deleteAtIndex(int position) {
+        if (head == null)
+            return;
 
+        Node temp = head;
+
+        if (position == 0) {
+            head = temp.next;
+            return;
+        }
+
+        for (int i=0; temp!=null && i<position-1; i++)
+            temp = temp.next;
+
+        if (temp == null || temp.next == null)
+            return;
+
+        Node next = temp.next.next;
+
+        temp.next = next;
     }
 
     public void deleteByData(int data) {
