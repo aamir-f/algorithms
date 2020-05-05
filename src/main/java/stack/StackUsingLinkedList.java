@@ -4,6 +4,7 @@ package stack;
  * Pros: The linked list implementation of stack can grow and shrink according to the needs at runtime.
  * Cons: Requires extra memory due to involvement of pointers.
  */
+//access and search using Linkedlist is O(n)
 public class StackUsingLinkedList {
 
     StackNode root;
