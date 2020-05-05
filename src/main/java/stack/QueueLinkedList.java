@@ -21,6 +21,7 @@ public class QueueLinkedList {
         return head.data;
     }
 
+    //O(1)
     public void add(int data) {
         // Create a new node
         // Set the current tail.next to point to this new node
@@ -37,7 +38,7 @@ public class QueueLinkedList {
             head = tail;
         }
     }
-
+ //O(1)
     public int remove() {
         // Save the data
         // Point the head to the next element (effectively removing it)
