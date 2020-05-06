@@ -22,6 +22,8 @@ public class SignalTower {
             while(stack.nonEmpty() && arr[i] > arr[stack.peek()])
                 stack.pop();
 
+                //--
+
             if(stack.isEmpty()) res[i] = i + 1;
             else res[i] = i - stack.peek();
 
